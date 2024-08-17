@@ -1,0 +1,73 @@
+2024-07-14 07:31:01,242 : Starting analysis of './samples/dgaramdo_gcc_9_O0'
+2024-07-14 07:32:19,360 : CANDIDATE FUNCTION FOUND 'generate_domain'!
+2024-07-14 07:32:19,360 : Analyzed sample './samples/dgaramdo_gcc_9_O0' and got {4199143: ['generate_domain', 'dgaRamdo', '']}
+2024-07-14 07:32:19,360 : Analysis of './samples/dgaramdo_gcc_9_O0' took 78.118047 seconds
+2024-07-14 07:32:19,361 : Starting analysis of './samples/dgaramdo_gcc_9_O1'
+2024-07-14 07:34:21,817 : Analyzed sample './samples/dgaramdo_gcc_9_O1' and got {}
+2024-07-14 07:34:21,817 : Analysis of './samples/dgaramdo_gcc_9_O1' took 122.455973 seconds
+2024-07-14 07:34:21,817 : Starting analysis of './samples/dgaramdo_gcc_9_O2'
+2024-07-14 07:37:20,960 : Analyzed sample './samples/dgaramdo_gcc_9_O2' and got {}
+2024-07-14 07:37:20,961 : Analysis of './samples/dgaramdo_gcc_9_O2' took 179.143515 seconds
+2024-07-14 07:37:20,961 : Starting analysis of './samples/dgaramdo_gcc_9_O3'
+2024-07-14 07:40:43,272 : Analyzed sample './samples/dgaramdo_gcc_9_O3' and got {}
+2024-07-14 07:40:43,273 : Analysis of './samples/dgaramdo_gcc_9_O3' took 202.312309 seconds
+2024-07-14 07:40:43,273 : Starting analysis of './samples/dgaramdo_muslgcc'
+2024-07-14 07:41:23,470 : CANDIDATE FUNCTION FOUND 'generate_domain'!
+2024-07-14 07:41:23,471 : Analyzed sample './samples/dgaramdo_muslgcc' and got {4198999: ['generate_domain', 'dgaRamdo', '']}
+2024-07-14 07:41:23,471 : Analysis of './samples/dgaramdo_muslgcc' took 40.197698 seconds
+2024-07-14 07:41:23,471 : Starting analysis of './samples/dgaramdo_muslgcc_O1'
+2024-07-14 07:42:08,714 : CANDIDATE FUNCTION FOUND 'generate_domain'!
+2024-07-14 07:42:08,714 : Analyzed sample './samples/dgaramdo_muslgcc_O1' and got {4198927: ['generate_domain', 'dgaRamdo', '']}
+2024-07-14 07:42:08,714 : Analysis of './samples/dgaramdo_muslgcc_O1' took 45.243214 seconds
+2024-07-14 07:42:08,714 : Starting analysis of './samples/dgaramdo_muslgcc_O2'
+2024-07-14 07:42:50,114 : CANDIDATE FUNCTION FOUND 'sub_401319'!
+2024-07-14 07:42:50,115 : Analyzed sample './samples/dgaramdo_muslgcc_O2' and got {4199193: ['sub_401319', 'dgaRamdo', '']}
+2024-07-14 07:42:50,115 : Analysis of './samples/dgaramdo_muslgcc_O2' took 41.400665 seconds
+2024-07-14 07:42:50,115 : Starting analysis of './samples/dgaramdo_muslgcc_O3'
+2024-07-14 07:43:47,753 : CANDIDATE FUNCTION FOUND 'sub_4014e4'!
+2024-07-14 07:43:47,754 : Analyzed sample './samples/dgaramdo_muslgcc_O3' and got {4199652: ['sub_4014e4', 'dgaRamdo', '']}
+2024-07-14 07:43:47,754 : Analysis of './samples/dgaramdo_muslgcc_O3' took 57.638681 seconds
+2024-07-14 07:43:47,754 : Starting analysis of './samples/dgaramdo_ollvm_bcf'
+2024-07-14 07:44:39,489 : CANDIDATE FUNCTION FOUND 'sub_401502'!
+2024-07-14 07:44:39,490 : Analyzed sample './samples/dgaramdo_ollvm_bcf' and got {4199682: ['sub_401502', 'dgaRamdo', '']}
+2024-07-14 07:44:39,490 : Analysis of './samples/dgaramdo_ollvm_bcf' took 51.735869 seconds
+2024-07-14 07:44:39,490 : Starting analysis of './samples/dgaramdo_ollvm_fla'
+2024-07-14 07:45:28,030 : CANDIDATE FUNCTION FOUND 'sub_40129e'!
+2024-07-14 07:45:28,030 : Analyzed sample './samples/dgaramdo_ollvm_fla' and got {4199070: ['sub_40129e', 'dgaRamdo', '']}
+2024-07-14 07:45:28,030 : Analysis of './samples/dgaramdo_ollvm_fla' took 48.539578 seconds
+2024-07-14 07:45:28,030 : Starting analysis of './samples/dgaramdo_ollvm_fla_bcf'
+2024-07-14 07:46:17,624 : CANDIDATE FUNCTION FOUND 'sub_40145e'!
+2024-07-14 07:46:17,624 : Analyzed sample './samples/dgaramdo_ollvm_fla_bcf' and got {4199518: ['sub_40145e', 'dgaRamdo', '']}
+2024-07-14 07:46:17,624 : Analysis of './samples/dgaramdo_ollvm_fla_bcf' took 49.594102 seconds
+2024-07-14 07:46:17,624 : Starting analysis of './samples/dgaramdo_ollvm_sub'
+2024-07-14 07:47:05,530 : CANDIDATE FUNCTION FOUND 'sub_40129e'!
+2024-07-14 07:47:05,530 : Analyzed sample './samples/dgaramdo_ollvm_sub' and got {4199070: ['sub_40129e', 'dgaRamdo', '']}
+2024-07-14 07:47:05,530 : Analysis of './samples/dgaramdo_ollvm_sub' took 47.905883 seconds
+2024-07-14 07:47:05,531 : Starting analysis of './samples/dgaramdo_ollvm_sub_bcf'
+2024-07-14 07:47:53,287 : CANDIDATE FUNCTION FOUND 'sub_40129e'!
+2024-07-14 07:47:53,287 : Analyzed sample './samples/dgaramdo_ollvm_sub_bcf' and got {4199070: ['sub_40129e', 'dgaRamdo', '']}
+2024-07-14 07:47:53,287 : Analysis of './samples/dgaramdo_ollvm_sub_bcf' took 47.756525 seconds
+2024-07-14 07:47:53,287 : Starting analysis of './samples/dgaramdo_ollvm_sub_fla'
+2024-07-14 07:48:43,171 : CANDIDATE FUNCTION FOUND 'sub_40129e'!
+2024-07-14 07:48:43,171 : Analyzed sample './samples/dgaramdo_ollvm_sub_fla' and got {4199070: ['sub_40129e', 'dgaRamdo', '']}
+2024-07-14 07:48:43,172 : Analysis of './samples/dgaramdo_ollvm_sub_fla' took 49.882644 seconds
+2024-07-14 07:48:43,172 : Starting analysis of './samples/dgaramdo_ollvm_sub_fla_bcf'
+2024-07-14 07:49:35,180 : CANDIDATE FUNCTION FOUND 'sub_4014f8'!
+2024-07-14 07:49:35,181 : Analyzed sample './samples/dgaramdo_ollvm_sub_fla_bcf' and got {4199672: ['sub_4014f8', 'dgaRamdo', '']}
+2024-07-14 07:49:35,181 : Analysis of './samples/dgaramdo_ollvm_sub_fla_bcf' took 52.009422 seconds
+2024-07-14 07:49:35,182 : Starting analysis of './samples/dgaramdo_tigress_fla_O0'
+2024-07-14 07:56:02,085 : CANDIDATE FUNCTION FOUND 'generate_domain'!
+2024-07-14 07:56:02,085 : Analyzed sample './samples/dgaramdo_tigress_fla_O0' and got {4200152: ['generate_domain', 'dgaRamdo', '']}
+2024-07-14 07:56:02,085 : Analysis of './samples/dgaramdo_tigress_fla_O0' took 386.90336 seconds
+2024-07-14 07:56:02,086 : Starting analysis of './samples/dgaramdo_tigress_fla_O1'
+2024-07-14 07:58:55,035 : CANDIDATE FUNCTION FOUND 'generate_domain'!
+2024-07-14 07:58:55,038 : Analyzed sample './samples/dgaramdo_tigress_fla_O1' and got {4199860: ['generate_domain', 'dgaRamdo', '']}
+2024-07-14 07:58:55,038 : Analysis of './samples/dgaramdo_tigress_fla_O1' took 172.952135 seconds
+2024-07-14 07:58:55,038 : Starting analysis of './samples/dgaramdo_tigress_fla_O2'
+2024-07-14 08:01:57,997 : CANDIDATE FUNCTION FOUND 'sub_4015e9'!
+2024-07-14 08:01:57,999 : Analyzed sample './samples/dgaramdo_tigress_fla_O2' and got {4199913: ['sub_4015e9', 'dgaRamdo', '']}
+2024-07-14 08:01:57,999 : Analysis of './samples/dgaramdo_tigress_fla_O2' took 182.961028 seconds
+2024-07-14 08:01:57,999 : Starting analysis of './samples/dgaramdo_tigress_fla_O3'
+2024-07-14 08:04:57,277 : CANDIDATE FUNCTION FOUND 'sub_401629'!
+2024-07-14 08:04:57,278 : Analyzed sample './samples/dgaramdo_tigress_fla_O3' and got {4199977: ['sub_401629', 'dgaRamdo', '']}
+2024-07-14 08:04:57,278 : Analysis of './samples/dgaramdo_tigress_fla_O3' took 179.278779 seconds

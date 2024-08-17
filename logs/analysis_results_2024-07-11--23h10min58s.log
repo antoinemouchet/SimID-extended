@@ -1,0 +1,14 @@
+2024-07-11 23:10:59,031 : Skipping analysis of './samples\dgaramdo', because it is not ./samples\dgaramdo_ollvm_sub.
+2024-07-11 23:10:59,031 : Skipping analysis of './samples\dgaramdo_gcc_9_O0', because it is not ./samples\dgaramdo_ollvm_sub.
+2024-07-11 23:10:59,031 : Skipping analysis of './samples\dgaramdo_gcc_9_O1', because it is not ./samples\dgaramdo_ollvm_sub.
+2024-07-11 23:10:59,031 : Skipping analysis of './samples\dgaramdo_gcc_9_O2', because it is not ./samples\dgaramdo_ollvm_sub.
+2024-07-11 23:10:59,031 : Skipping analysis of './samples\dgaramdo_gcc_9_O3', because it is not ./samples\dgaramdo_ollvm_sub.
+2024-07-11 23:10:59,032 : Skipping analysis of './samples\dgaramdo_ollvm_bcf', because it is not ./samples\dgaramdo_ollvm_sub.
+2024-07-11 23:10:59,032 : Skipping analysis of './samples\dgaramdo_ollvm_fla', because it is not ./samples\dgaramdo_ollvm_sub.
+2024-07-11 23:10:59,032 : Skipping analysis of './samples\dgaramdo_ollvm_fla_bcf', because it is not ./samples\dgaramdo_ollvm_sub.
+2024-07-11 23:10:59,033 : Starting analysis of './samples\dgaramdo_ollvm_sub'
+2024-07-11 23:12:00,052 : CANDIDATE FUNCTION FOUND 'sub_40129e'!
+2024-07-11 23:12:00,053 : Analyzed sample './samples\dgaramdo_ollvm_sub' and got {4199070: ['sub_40129e', 'dga_ramdo']}
+2024-07-11 23:12:00,053 : Skipping analysis of './samples\dgaramdo_ollvm_sub_bcf', because it is not ./samples\dgaramdo_ollvm_sub.
+2024-07-11 23:12:00,053 : Skipping analysis of './samples\dgaramdo_ollvm_sub_fla', because it is not ./samples\dgaramdo_ollvm_sub.
+2024-07-11 23:12:00,053 : Skipping analysis of './samples\dgaramdo_ollvm_sub_fla_bcf', because it is not ./samples\dgaramdo_ollvm_sub.

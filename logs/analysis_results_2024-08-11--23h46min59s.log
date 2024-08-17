@@ -1,0 +1,4 @@
+2024-08-11 23:46:59,809 : Starting analysis of './samples/acd0a278ad8f069876948274d6d25f07d6a4235816f9305bf54b2e2af3a401df.exe'
+2024-08-11 23:47:07,261 : CANDIDATE FUNCTIONALITY FOUND 'copyMem' for function 'sub_40102c', at 0x40102c!
+2024-08-11 23:47:07,261 : Analysis of './samples/acd0a278ad8f069876948274d6d25f07d6a4235816f9305bf54b2e2af3a401df.exe' took 7.452138 seconds.
+Found 1 functionalities

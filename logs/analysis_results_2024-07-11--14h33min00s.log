@@ -1,0 +1,33 @@
+2024-07-11 14:33:00,838 : Starting analysis of './samples\dgaramdo'
+2024-07-11 15:22:00,915 : CANDIDATE FUNCTION FOUND 'generate_domain'!
+2024-07-11 15:22:00,915 : Analyzed sample './samples\dgaramdo' and got {4198857: 'generate_domain'}
+2024-07-11 15:22:00,916 : Starting analysis of './samples\dgaramdo_gcc_9_O0'
+2024-07-11 15:25:42,872 : CANDIDATE FUNCTION FOUND 'generate_domain'!
+2024-07-11 15:25:42,873 : Analyzed sample './samples\dgaramdo_gcc_9_O0' and got {4199143: 'generate_domain'}
+2024-07-11 15:25:42,874 : Starting analysis of './samples\dgaramdo_gcc_9_O1'
+2024-07-11 15:31:35,155 : Analyzed sample './samples\dgaramdo_gcc_9_O1' and got {}
+2024-07-11 15:31:35,157 : Starting analysis of './samples\dgaramdo_gcc_9_O2'
+2024-07-11 15:39:59,201 : Analyzed sample './samples\dgaramdo_gcc_9_O2' and got {}
+2024-07-11 15:39:59,201 : Starting analysis of './samples\dgaramdo_gcc_9_O3'
+2024-07-11 15:49:18,236 : Analyzed sample './samples\dgaramdo_gcc_9_O3' and got {}
+2024-07-11 15:49:18,237 : Starting analysis of './samples\dgaramdo_ollvm_bcf'
+2024-07-11 15:51:20,123 : CANDIDATE FUNCTION FOUND 'sub_401502'!
+2024-07-11 15:51:20,125 : Analyzed sample './samples\dgaramdo_ollvm_bcf' and got {4199682: 'sub_401502'}
+2024-07-11 15:51:20,125 : Starting analysis of './samples\dgaramdo_ollvm_fla'
+2024-07-11 15:53:49,277 : CANDIDATE FUNCTION FOUND 'sub_40129e'!
+2024-07-11 15:53:49,278 : Analyzed sample './samples\dgaramdo_ollvm_fla' and got {4199070: 'sub_40129e'}
+2024-07-11 15:53:49,278 : Starting analysis of './samples\dgaramdo_ollvm_fla_bcf'
+2024-07-11 15:56:20,193 : CANDIDATE FUNCTION FOUND 'sub_40145e'!
+2024-07-11 15:56:20,195 : Analyzed sample './samples\dgaramdo_ollvm_fla_bcf' and got {4199518: 'sub_40145e'}
+2024-07-11 15:56:20,196 : Starting analysis of './samples\dgaramdo_ollvm_sub'
+2024-07-11 15:58:32,527 : CANDIDATE FUNCTION FOUND 'sub_40129e'!
+2024-07-11 15:58:32,527 : Analyzed sample './samples\dgaramdo_ollvm_sub' and got {4199070: 'sub_40129e'}
+2024-07-11 15:58:32,528 : Starting analysis of './samples\dgaramdo_ollvm_sub_bcf'
+2024-07-11 16:00:49,059 : CANDIDATE FUNCTION FOUND 'sub_40129e'!
+2024-07-11 16:00:49,060 : Analyzed sample './samples\dgaramdo_ollvm_sub_bcf' and got {4199070: 'sub_40129e'}
+2024-07-11 16:00:49,060 : Starting analysis of './samples\dgaramdo_ollvm_sub_fla'
+2024-07-11 16:03:12,397 : CANDIDATE FUNCTION FOUND 'sub_40129e'!
+2024-07-11 16:03:12,398 : Analyzed sample './samples\dgaramdo_ollvm_sub_fla' and got {4199070: 'sub_40129e'}
+2024-07-11 16:03:12,398 : Starting analysis of './samples\dgaramdo_ollvm_sub_fla_bcf'
+2024-07-11 16:05:38,026 : CANDIDATE FUNCTION FOUND 'sub_4014f8'!
+2024-07-11 16:05:38,028 : Analyzed sample './samples\dgaramdo_ollvm_sub_fla_bcf' and got {4199672: 'sub_4014f8'}

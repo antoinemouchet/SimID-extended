@@ -1,0 +1,137 @@
+{
+    "explanation" : "MAYBE NOT NEEDED TO TEST ------ The following line is useful to save all specific types (struct) of this DB because we need to register those with angr before ",
+    "types" : [
+                "struct node {void *data; struct node *next;}",
+                "typedef struct node * llist;",
+                "struct sSelf {long int seed; long int nr; long int generateddomains; char lastdomain[8500]; char domainhistory[50];}"
+              ],
+
+    "number of parameter" : {
+        "Type of parameter, Type of parameter 2, ..." : {
+            "function name" : {
+                "input" : "list of inputs",
+                "output" : "output",
+                "output_type" : "output types",
+                "prototype" : "prototype",
+                "specific_types" : "list of boolean true if input parameter at this position is a specific type",
+                "specific_type_values" : "LIST when the type of parameter/output is strange, use this field to specify the value (useful for struct)",
+                "user_hook" : "User hook for function"
+            }
+        }
+    },
+
+    "1" : {
+        "struct sSelf *" : {
+            "dgaRamdo" : {
+                "input" : ["struct sSelf"],
+                "output" : "kusumyekqaaskcqw.org",
+                "output_type" : "String",
+                "prototype" : "char * generate_domain(struct sSelf *)",
+                "specific_types" : [true],
+                "specific_type_value" : [{
+                    "seed": 876543,
+                    "nr": 0,
+                    "generateddomains": 0,
+                    "lastdomain": "",
+                    "domainhistory": ""
+                }],
+                "user_hook" : ""
+            }
+        },
+        "char *" : {
+            "getTrashPath" : {
+                "input" : ["/home/analyst/"],
+                "output" : "/home/analyst/.local/share/Trash/",
+                "output_type" : "String",
+                "prototype" : "char * get_trash_path(char *)",
+                "specific_types" : [false],
+                "specific_type_value" : [],
+                "user_hook" : ""
+            },
+            "getMediaPath" : {
+                "input" : ["analyst"],
+                "output" : "/media/analyst/",
+                "output_type" : "String",
+                "prototype" : "char * get_media_path(char *)",
+                "specific_types" : [false],
+                "specific_type_value" : [],
+                "user_hook" : ""
+            },
+            "getTestPath" : {
+                "input" : ["/home/analyst/Desktop/"],
+                "output" : "/home/analyst/Desktop/tests/",
+                "output_type" : "String",
+                "prototype" : "char * get_test_path(char *)",
+                "specific_types" : [false],
+                "specific_type_value" : [],
+                "user_hook" : ""
+            },
+            "crc32" : {
+                "input" : ["test"],
+                "output" : "3632233996",
+                "output_type" : "String",
+                "prototype" : "int crc32(char *)",
+                "specific_types" : [false],
+                "specific_type_value" : [],
+                "user_hook" : ""
+            },
+            "murmurHash" : {
+                "input" : ["Test"],
+                "output" : "123038886",
+                "output_type" : "int",
+                "prototype" : "int murmurhash(char *)",
+                "specific_types" : [false],
+                "specific_type_value" : [],
+                "user_hook" : ""
+            }
+        },
+        "const char *" : {
+            "getFilenameExt" : {
+                "input" : ["test.pdf"],
+                "output" : "pdf",
+                "output_type" : "String",
+                "prototype" : "const char * get_filename_ext(const char *)",
+                "specific_types" : [false],
+                "specific_type_value" : [],
+                "user_hook" : ""
+            }
+        },
+        "int" : {
+            "toyTransform" : {
+                "input" : [0],
+                "output" : 297,
+                "output_type" : "int",
+                "prototype" : "int transform(int)",
+                "specific_types" : [false],
+                "specific_type_value" : [],
+                "user_hook" : ""
+            }
+        }
+    },
+    "2" : {
+        "char *, char *" : {
+            "aesDecrypt" : {
+                "input" : ["5VwnKQG1ivCKn/4bd6aIP5iiG8jCgkaFdZGFa6C2MI/hrZa6BSGGXF7AniOIpUhx", "HpB8iBDYH8nymVGzhue75c3f0AfpSlAzSLL0aDCvzr1r2VhdUWW0/N2SFYfIESZG"],
+                "output" : "TESTE CRYPTO",
+                "output_type" : "String",
+                "prototype" : "char * aes_decrypt(char *, char *)",
+                "specific_types" : [false, false],
+                "specific_type_value" : [],
+                "user_hook" : ""
+            }
+        }
+    },
+    "3" : {
+        "int, undefined *, int" : {
+            "copyMem" : {
+                "input" : [5, "test", 3],
+                "output" : "5" ,
+                "output_type" : "int",
+                "prototype" : "int copy_mem(int, char*, int)",
+                "specific_types" : [false, false, false],
+                "specific_type_value" : [],
+                "user_hook" : ""
+            }
+        }
+    }
+}

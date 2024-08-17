@@ -1,0 +1,326 @@
+2024-07-11 23:10:59,027 : ################################################################################
+2024-07-11 23:10:59,028 : angr: 9.2.100
+2024-07-11 23:10:59,028 : angr: sys.version_info(major=3, minor=8, micro=18, releaselevel='final', serial=0)
+2024-07-11 23:10:59,028 : ################################################################################
+2024-07-11 23:10:59,028 : Start: 2024-07-11 23:10:59.028457
+2024-07-11 23:10:59,028 : ********************************************************************************
+2024-07-11 23:10:59,028 : Full Analysis: True
+2024-07-11 23:10:59,030 : Functionality Analysis : dga_ramdo
+2024-07-11 23:10:59,030 : ********************************************************************************
+2024-07-11 23:10:59,033 : Starting analysis of ./samples\dgaramdo_ollvm_sub
+2024-07-11 23:10:59,319 : dga_ramdo is a candidate
+2024-07-11 23:10:59,320 : Processing argument struct sSelf at position 0
+2024-07-11 23:10:59,320 : dga_ramdo has struct, reconstructing.
+2024-07-11 23:10:59,320 : Struct value : {
+  .seed = 876543,
+  .nr = 0,
+  .generateddomains = 0,
+  .lastdomain = '',
+  .domainhistory = ''
+}
+2024-07-11 23:10:59,320 : [1/72] Analyzing Function '_init', at 0x401000
+2024-07-11 23:10:59,321 : Could not get get prototype of function _init at 0x401000
+2024-07-11 23:10:59,321 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-07-11 23:11:00,293 : Function _init at 0x401000: Running angr callable with concrete arguments.
+2024-07-11 23:11:01,453 : Function _init at 0x401000 has return value: <BV64 0x0>
+2024-07-11 23:11:01,454 : Function '_init' with 'dga_ramdo', at 4198400 has return bytes: b''
+2024-07-11 23:11:01,454 : Function '_init' with 'dga_ramdo', at 4198400 has return value: 
+2024-07-11 23:11:01,454 : Not a candidate function: '_init' at 0x401000, has return vale: <BV64 0x0>
+2024-07-11 23:11:01,455 : [2/72] Analyzing Function 'sub_401020', at 0x401020
+2024-07-11 23:11:01,455 : Could not get get prototype of function sub_401020 at 0x401020
+2024-07-11 23:11:01,456 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-07-11 23:11:02,435 : Function sub_401020 at 0x401020: Running angr callable with concrete arguments.
+2024-07-11 23:11:03,413 : Exception: No paths returned from function
+Traceback (most recent call last):
+  File "simID_modified.py", line 443, in analyze_sample
+    ret_val = check_func(*c_input)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\callable.py", line 74, in __call__
+    self.perform_call(*args, prototype=prototype)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\callable.py", line 107, in perform_call
+    raise AngrCallableError("No paths returned from function")
+angr.errors.AngrCallableError: No paths returned from function
+2024-07-11 23:11:03,415 : [3/72] Analyzing Function 'sub_40102c', at 0x40102c
+2024-07-11 23:11:03,415 : Could not get get prototype of function sub_40102c at 0x40102c
+2024-07-11 23:11:03,415 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-07-11 23:11:04,476 : Function sub_40102c at 0x40102c: Running angr callable with concrete arguments.
+2024-07-11 23:11:05,708 : Function sub_40102c at 0x40102c has return value: <BV64 0x0>
+2024-07-11 23:11:05,708 : Function 'sub_40102c' with 'dga_ramdo', at 4198444 has return bytes: b''
+2024-07-11 23:11:05,708 : Function 'sub_40102c' with 'dga_ramdo', at 4198444 has return value: 
+2024-07-11 23:11:05,709 : Not a candidate function: 'sub_40102c' at 0x40102c, has return vale: <BV64 0x0>
+2024-07-11 23:11:05,709 : [4/72] Analyzing Function 'free', at 0x401030
+2024-07-11 23:11:05,710 : Function free at 0x401030 has args void*
+2024-07-11 23:11:05,710 : Function free at 0x401030 has args void
+2024-07-11 23:11:07,076 : Function free at 0x401030: Running angr callable with concrete arguments.
+2024-07-11 23:11:08,208 : Function free at 0x401030 has return value: <BV64 0x0>
+2024-07-11 23:11:08,208 : Function 'free' with 'dga_ramdo', at 4198448 has return bytes: b''
+2024-07-11 23:11:08,209 : Function 'free' with 'dga_ramdo', at 4198448 has return value: 
+2024-07-11 23:11:08,209 : Not a candidate function: 'free' at 0x401030, has return vale: <BV64 0x0>
+2024-07-11 23:11:08,209 : [5/72] Analyzing Function 'putchar', at 0x401040
+2024-07-11 23:11:08,209 : Function putchar at 0x401040 has args int
+2024-07-11 23:11:08,209 : Function putchar at 0x401040 has args int (32 bits)
+2024-07-11 23:11:09,376 : Function putchar at 0x401040: Running angr callable with concrete arguments.
+2024-07-11 23:11:10,854 : Function putchar at 0x401040 has return value: <BV64 0x8a>
+2024-07-11 23:11:10,854 : Function 'putchar' with 'dga_ramdo', at 4198464 has return bytes: b''
+2024-07-11 23:11:10,855 : Function 'putchar' with 'dga_ramdo', at 4198464 has return value: 
+2024-07-11 23:11:10,855 : Not a candidate function: 'putchar' at 0x401040, has return vale: <BV64 0x8a>
+2024-07-11 23:11:10,855 : [6/72] Analyzing Function 'strcpy', at 0x401050
+2024-07-11 23:11:10,856 : [6/72] Skipping Function 'strcpy', at 0x401050, because of arguments
+2024-07-11 23:11:10,856 : [7/72] Analyzing Function 'atof', at 0x401060
+2024-07-11 23:11:10,856 : Function atof at 0x401060 has args char *
+2024-07-11 23:11:10,857 : Function atof at 0x401060 has args double
+2024-07-11 23:11:11,962 : Function atof at 0x401060: Running angr callable with concrete arguments.
+2024-07-11 23:11:13,333 : Function atof at 0x401060 has return value: <BV64 0x0>
+2024-07-11 23:11:13,333 : Function 'atof' with 'dga_ramdo', at 4198496 has return bytes: b''
+2024-07-11 23:11:13,335 : Function 'atof' with 'dga_ramdo', at 4198496 has return value: 
+2024-07-11 23:11:13,335 : Not a candidate function: 'atof' at 0x401060, has return vale: <BV64 0x0>
+2024-07-11 23:11:13,335 : [8/72] Analyzing Function 'printf', at 0x401070
+2024-07-11 23:11:13,336 : Function printf at 0x401070 has args char *
+2024-07-11 23:11:13,337 : Function printf at 0x401070 has args int (32 bits)
+2024-07-11 23:11:14,558 : Function printf at 0x401070: Running angr callable with concrete arguments.
+2024-07-11 23:11:15,868 : Function printf at 0x401070 has return value: <BV64 0x3>
+2024-07-11 23:11:15,869 : Function 'printf' with 'dga_ramdo', at 4198512 has return bytes: b''
+2024-07-11 23:11:15,869 : Function 'printf' with 'dga_ramdo', at 4198512 has return value: 
+2024-07-11 23:11:15,870 : Not a candidate function: 'printf' at 0x401070, has return vale: <BV64 0x3>
+2024-07-11 23:11:15,870 : [9/72] Analyzing Function 'memset', at 0x401080
+2024-07-11 23:11:15,871 : [9/72] Skipping Function 'memset', at 0x401080, because of arguments
+2024-07-11 23:11:15,871 : [10/72] Analyzing Function 'strcmp', at 0x401090
+2024-07-11 23:11:15,871 : [10/72] Skipping Function 'strcmp', at 0x401090, because of arguments
+2024-07-11 23:11:15,871 : [11/72] Analyzing Function 'fprintf', at 0x4010a0
+2024-07-11 23:11:15,873 : [11/72] Skipping Function 'fprintf', at 0x4010a0, because of arguments
+2024-07-11 23:11:15,873 : [12/72] Analyzing Function 'malloc', at 0x4010b0
+2024-07-11 23:11:15,874 : Function malloc at 0x4010b0 has args unsigned long
+2024-07-11 23:11:15,874 : Function malloc at 0x4010b0 has args void*
+2024-07-11 23:11:17,122 : Function malloc at 0x4010b0: Running angr callable with concrete arguments.
+2024-07-11 23:11:18,259 : Function malloc at 0x4010b0 has return value: <BV64 0xc0000000>
+2024-07-11 23:11:18,260 : Function 'malloc' with 'dga_ramdo', at 4198576 has return bytes: b''
+2024-07-11 23:11:18,260 : Function 'malloc' with 'dga_ramdo', at 4198576 has return value: 
+2024-07-11 23:11:18,260 : Not a candidate function: 'malloc' at 0x4010b0, has return vale: <BV64 0xc0000000>
+2024-07-11 23:11:18,261 : [13/72] Analyzing Function 'strcat', at 0x4010c0
+2024-07-11 23:11:18,261 : [13/72] Skipping Function 'strcat', at 0x4010c0, because of arguments
+2024-07-11 23:11:18,261 : [14/72] Analyzing Function '_start', at 0x4010d0
+2024-07-11 23:11:18,262 : Could not get get prototype of function _start at 0x4010d0
+2024-07-11 23:11:18,262 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-07-11 23:11:19,328 : Function _start at 0x4010d0: Running angr callable with concrete arguments.
+2024-07-11 23:11:20,956 : Exception: BVV() takes either an integer value and a size or a string of bytes
+Traceback (most recent call last):
+  File "simID_modified.py", line 443, in analyze_sample
+    ret_val = check_func(*c_input)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\callable.py", line 74, in __call__
+    self.perform_call(*args, prototype=prototype)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\callable.py", line 103, in perform_call
+    caller.run(step_func=step_func if self._concrete_only else None).unstash(from_stash="deadended")
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\sim_manager.py", line 360, in run
+    self.step(stash=stash, **kwargs)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\misc\hookset.py", line 96, in __call__
+    result = current_hook(self.func.__self__, *args, **kwargs)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\exploration_techniques\suggestions.py", line 43, in step
+    simgr.step(stash=stash, **kwargs)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\misc\hookset.py", line 101, in __call__
+    return self.func(*args, **kwargs)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\sim_manager.py", line 469, in step
+    successors = self.step_state(state, successor_func=successor_func, error_list=error_list, **run_args)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\sim_manager.py", line 510, in step_state
+    successors = self.successors(state, successor_func=successor_func, **run_args)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\sim_manager.py", line 560, in successors
+    return self._project.factory.successors(state, **run_args)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\factory.py", line 79, in successors
+    return self.default_engine.process(*args, **kwargs)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\vex\light\slicing.py", line 20, in process
+    return super().process(*args, **kwargs)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\engine.py", line 163, in process
+    self.process_successors(self.successors, **kwargs)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\failure.py", line 24, in process_successors
+    return super().process_successors(successors, **kwargs)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\syscall.py", line 26, in process_successors
+    return super().process_successors(successors, **kwargs)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\hook.py", line 56, in process_successors
+    return super().process_successors(successors, procedure=procedure, **kwargs)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\unicorn.py", line 389, in process_successors
+    return super().process_successors(successors, **kwargs)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\soot\engine.py", line 68, in process_successors
+    return super().process_successors(successors, **kwargs)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\vex\heavy\heavy.py", line 174, in process_successors
+    self.handle_vex_block(irsb)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\vex\heavy\super_fastpath.py", line 25, in handle_vex_block
+    super().handle_vex_block(irsb)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\vex\light\slicing.py", line 26, in handle_vex_block
+    super().handle_vex_block(irsb)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\vex\heavy\actions.py", line 31, in handle_vex_block
+    super().handle_vex_block(irsb)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\vex\heavy\inspect.py", line 49, in handle_vex_block
+    super().handle_vex_block(irsb)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\vex\light\light.py", line 548, in handle_vex_block
+    self._handle_vex_stmt(stmt)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\vex\light\slicing.py", line 30, in _handle_vex_stmt
+    super()._handle_vex_stmt(stmt)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\vex\heavy\inspect.py", line 44, in _handle_vex_stmt
+    super()._handle_vex_stmt(stmt)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\vex\light\resilience.py", line 39, in inner
+    return getattr(super(VEXResilienceMixin, self), func)(*iargs, **ikwargs)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\vex\heavy\heavy.py", line 248, in _handle_vex_stmt
+    super()._handle_vex_stmt(stmt)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\vex\light\light.py", line 52, in _handle_vex_stmt
+    handler(stmt)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\vex\light\light.py", line 203, in _handle_vex_stmt_WrTmp
+    self._perform_vex_stmt_WrTmp(stmt.tmp, self._analyze_vex_stmt_WrTmp_data(stmt.data))
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\vex\light\light.py", line 200, in _analyze_vex_stmt_WrTmp_data
+    return self._handle_vex_expr(*a, **kw)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\vex\heavy\inspect.py", line 35, in _handle_vex_expr
+    return super()._handle_vex_expr(expr)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\vex\light\light.py", line 57, in _handle_vex_expr
+    return self._instrument_vex_expr(result)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\vex\heavy\actions.py", line 46, in _instrument_vex_expr
+    return super()._instrument_vex_expr(result[0]), result[1]
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\vex\heavy\inspect.py", line 38, in _instrument_vex_expr
+    result = super()._instrument_vex_expr(result)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\engines\vex\heavy\heavy.py", line 343, in _instrument_vex_expr
+    concrete_value = self.state.solver.BVV(self.state.solver.eval(result), len(result))
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\state_plugins\solver.py", line 93, in wrapped_f
+    return f(*args, **kwargs)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\state_plugins\sim_action_object.py", line 61, in ast_stripper
+    return f(*new_args, **new_kwargs)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\claripy\ast\bv.py", line 291, in BVV
+    raise TypeError("BVV() takes either an integer value and a size or a string of bytes")
+TypeError: BVV() takes either an integer value and a size or a string of bytes
+2024-07-11 23:11:20,983 : [15/72] Analyzing Function 'sub_4010fe', at 0x4010fe
+2024-07-11 23:11:20,985 : Could not get get prototype of function sub_4010fe at 0x4010fe
+2024-07-11 23:11:20,985 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-07-11 23:11:22,030 : Function sub_4010fe at 0x4010fe: Running angr callable with concrete arguments.
+2024-07-11 23:11:23,141 : Exception: No paths returned from function
+Traceback (most recent call last):
+  File "simID_modified.py", line 443, in analyze_sample
+    ret_val = check_func(*c_input)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\callable.py", line 74, in __call__
+    self.perform_call(*args, prototype=prototype)
+  File "C:\Users\antoi\anaconda3\envs\thesis\lib\site-packages\angr\callable.py", line 107, in perform_call
+    raise AngrCallableError("No paths returned from function")
+angr.errors.AngrCallableError: No paths returned from function
+2024-07-11 23:11:23,142 : [16/72] Analyzing Function 'sub_4010ff', at 0x4010ff
+2024-07-11 23:11:23,143 : Could not get get prototype of function sub_4010ff at 0x4010ff
+2024-07-11 23:11:23,143 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-07-11 23:11:24,252 : Function sub_4010ff at 0x4010ff: Running angr callable with concrete arguments.
+2024-07-11 23:11:25,391 : Function sub_4010ff at 0x4010ff has return value: <BV64 0x0>
+2024-07-11 23:11:25,392 : Function 'sub_4010ff' with 'dga_ramdo', at 4198655 has return bytes: b''
+2024-07-11 23:11:25,392 : Function 'sub_4010ff' with 'dga_ramdo', at 4198655 has return value: 
+2024-07-11 23:11:25,393 : Not a candidate function: 'sub_4010ff' at 0x4010ff, has return vale: <BV64 0x0>
+2024-07-11 23:11:25,393 : [17/72] Analyzing Function '_dl_relocate_static_pie', at 0x401100
+2024-07-11 23:11:25,394 : Could not get get prototype of function _dl_relocate_static_pie at 0x401100
+2024-07-11 23:11:25,395 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-07-11 23:11:26,468 : Function _dl_relocate_static_pie at 0x401100: Running angr callable with concrete arguments.
+2024-07-11 23:11:27,499 : Function _dl_relocate_static_pie at 0x401100 has return value: <BV64 0x0>
+2024-07-11 23:11:27,500 : Function '_dl_relocate_static_pie' with 'dga_ramdo', at 4198656 has return bytes: b''
+2024-07-11 23:11:27,500 : Function '_dl_relocate_static_pie' with 'dga_ramdo', at 4198656 has return value: 
+2024-07-11 23:11:27,500 : Not a candidate function: '_dl_relocate_static_pie' at 0x401100, has return vale: <BV64 0x0>
+2024-07-11 23:11:27,500 : [18/72] Analyzing Function 'sub_401105', at 0x401105
+2024-07-11 23:11:27,501 : Could not get get prototype of function sub_401105 at 0x401105
+2024-07-11 23:11:27,501 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-07-11 23:11:28,568 : Function sub_401105 at 0x401105: Running angr callable with concrete arguments.
+2024-07-11 23:11:29,795 : Function sub_401105 at 0x401105 has return value: <BV64 0x404078>
+2024-07-11 23:11:29,801 : Function 'sub_401105' with 'dga_ramdo', at 4198661 has return bytes: b''
+2024-07-11 23:11:29,801 : Function 'sub_401105' with 'dga_ramdo', at 4198661 has return value: 
+2024-07-11 23:11:29,801 : Not a candidate function: 'sub_401105' at 0x401105, has return vale: <BV64 0x404078>
+2024-07-11 23:11:29,802 : [19/72] Analyzing Function 'deregister_tm_clones', at 0x401110
+2024-07-11 23:11:29,802 : Could not get get prototype of function deregister_tm_clones at 0x401110
+2024-07-11 23:11:29,802 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-07-11 23:11:30,989 : Function deregister_tm_clones at 0x401110: Running angr callable with concrete arguments.
+2024-07-11 23:11:32,023 : Function deregister_tm_clones at 0x401110 has return value: <BV64 0x404078>
+2024-07-11 23:11:32,027 : Function 'deregister_tm_clones' with 'dga_ramdo', at 4198672 has return bytes: b''
+2024-07-11 23:11:32,028 : Function 'deregister_tm_clones' with 'dga_ramdo', at 4198672 has return value: 
+2024-07-11 23:11:32,028 : Not a candidate function: 'deregister_tm_clones' at 0x401110, has return vale: <BV64 0x404078>
+2024-07-11 23:11:32,029 : [20/72] Analyzing Function 'sub_401131', at 0x401131
+2024-07-11 23:11:32,029 : Could not get get prototype of function sub_401131 at 0x401131
+2024-07-11 23:11:32,029 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-07-11 23:11:33,064 : Function sub_401131 at 0x401131: Running angr callable with concrete arguments.
+2024-07-11 23:11:34,080 : Function sub_401131 at 0x401131 has return value: <BV64 0x0>
+2024-07-11 23:11:34,081 : Function 'sub_401131' with 'dga_ramdo', at 4198705 has return bytes: b''
+2024-07-11 23:11:34,082 : Function 'sub_401131' with 'dga_ramdo', at 4198705 has return value: 
+2024-07-11 23:11:34,082 : Not a candidate function: 'sub_401131' at 0x401131, has return vale: <BV64 0x0>
+2024-07-11 23:11:34,082 : [21/72] Analyzing Function 'register_tm_clones', at 0x401140
+2024-07-11 23:11:34,082 : Could not get get prototype of function register_tm_clones at 0x401140
+2024-07-11 23:11:34,082 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-07-11 23:11:35,101 : Function register_tm_clones at 0x401140: Running angr callable with concrete arguments.
+2024-07-11 23:11:36,177 : Function register_tm_clones at 0x401140 has return value: <BV64 0x0>
+2024-07-11 23:11:36,177 : Function 'register_tm_clones' with 'dga_ramdo', at 4198720 has return bytes: b''
+2024-07-11 23:11:36,178 : Function 'register_tm_clones' with 'dga_ramdo', at 4198720 has return value: 
+2024-07-11 23:11:36,178 : Not a candidate function: 'register_tm_clones' at 0x401140, has return vale: <BV64 0x0>
+2024-07-11 23:11:36,178 : [22/72] Analyzing Function 'sub_401171', at 0x401171
+2024-07-11 23:11:36,178 : Could not get get prototype of function sub_401171 at 0x401171
+2024-07-11 23:11:36,179 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-07-11 23:11:37,593 : Function sub_401171 at 0x401171: Running angr callable with concrete arguments.
+2024-07-11 23:11:38,643 : Function sub_401171 at 0x401171 has return value: <BV64 0x404078>
+2024-07-11 23:11:38,644 : Function 'sub_401171' with 'dga_ramdo', at 4198769 has return bytes: b''
+2024-07-11 23:11:38,644 : Function 'sub_401171' with 'dga_ramdo', at 4198769 has return value: 
+2024-07-11 23:11:38,644 : Not a candidate function: 'sub_401171' at 0x401171, has return vale: <BV64 0x404078>
+2024-07-11 23:11:38,645 : [23/72] Analyzing Function '__do_global_dtors_aux', at 0x401180
+2024-07-11 23:11:38,645 : Could not get get prototype of function __do_global_dtors_aux at 0x401180
+2024-07-11 23:11:38,645 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-07-11 23:11:39,745 : Function __do_global_dtors_aux at 0x401180: Running angr callable with concrete arguments.
+2024-07-11 23:11:40,897 : Function __do_global_dtors_aux at 0x401180 has return value: <BV64 0x404078>
+2024-07-11 23:11:40,897 : Function '__do_global_dtors_aux' with 'dga_ramdo', at 4198784 has return bytes: b''
+2024-07-11 23:11:40,897 : Function '__do_global_dtors_aux' with 'dga_ramdo', at 4198784 has return value: 
+2024-07-11 23:11:40,899 : Not a candidate function: '__do_global_dtors_aux' at 0x401180, has return vale: <BV64 0x404078>
+2024-07-11 23:11:40,899 : [24/72] Analyzing Function 'sub_40119f', at 0x40119f
+2024-07-11 23:11:40,899 : Could not get get prototype of function sub_40119f at 0x40119f
+2024-07-11 23:11:40,901 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-07-11 23:11:42,130 : Function sub_40119f at 0x40119f: Running angr callable with concrete arguments.
+2024-07-11 23:11:43,465 : Function sub_40119f at 0x40119f has return value: <BV64 0x0>
+2024-07-11 23:11:43,466 : Function 'sub_40119f' with 'dga_ramdo', at 4198815 has return bytes: b''
+2024-07-11 23:11:43,467 : Function 'sub_40119f' with 'dga_ramdo', at 4198815 has return value: 
+2024-07-11 23:11:43,467 : Not a candidate function: 'sub_40119f' at 0x40119f, has return vale: <BV64 0x0>
+2024-07-11 23:11:43,467 : [25/72] Analyzing Function 'sub_4011a1', at 0x4011a1
+2024-07-11 23:11:43,468 : Could not get get prototype of function sub_4011a1 at 0x4011a1
+2024-07-11 23:11:43,469 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-07-11 23:11:44,539 : Function sub_4011a1 at 0x4011a1: Running angr callable with concrete arguments.
+2024-07-11 23:11:45,712 : Function sub_4011a1 at 0x4011a1 has return value: <BV64 0x0>
+2024-07-11 23:11:45,712 : Function 'sub_4011a1' with 'dga_ramdo', at 4198817 has return bytes: b''
+2024-07-11 23:11:45,713 : Function 'sub_4011a1' with 'dga_ramdo', at 4198817 has return value: 
+2024-07-11 23:11:45,713 : Not a candidate function: 'sub_4011a1' at 0x4011a1, has return vale: <BV64 0x0>
+2024-07-11 23:11:45,713 : [26/72] Analyzing Function 'frame_dummy', at 0x4011b0
+2024-07-11 23:11:45,713 : Could not get get prototype of function frame_dummy at 0x4011b0
+2024-07-11 23:11:45,713 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-07-11 23:11:46,825 : Function frame_dummy at 0x4011b0: Running angr callable with concrete arguments.
+2024-07-11 23:11:47,939 : Function frame_dummy at 0x4011b0 has return value: <BV64 0x0>
+2024-07-11 23:11:47,940 : Function 'frame_dummy' with 'dga_ramdo', at 4198832 has return bytes: b''
+2024-07-11 23:11:47,940 : Function 'frame_dummy' with 'dga_ramdo', at 4198832 has return value: 
+2024-07-11 23:11:47,940 : Not a candidate function: 'frame_dummy' at 0x4011b0, has return vale: <BV64 0x0>
+2024-07-11 23:11:47,940 : [27/72] Analyzing Function 'sub_4011b6', at 0x4011b6
+2024-07-11 23:11:47,940 : Could not get get prototype of function sub_4011b6 at 0x4011b6
+2024-07-11 23:11:47,940 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-07-11 23:11:49,112 : Function sub_4011b6 at 0x4011b6: Running angr callable with concrete arguments.
+2024-07-11 23:11:50,258 : Function sub_4011b6 at 0x4011b6 has return value: <BV64 0xc0000000>
+2024-07-11 23:11:50,259 : Function 'sub_4011b6' with 'dga_ramdo', at 4198838 has return bytes: b'\x10'
+2024-07-11 23:11:50,259 : Function 'sub_4011b6' with 'dga_ramdo', at 4198838 has return value: 
+2024-07-11 23:11:50,260 : Not a candidate function: 'sub_4011b6' at 0x4011b6, has return vale: <BV64 0xc0000000>
+2024-07-11 23:11:50,260 : [28/72] Analyzing Function 'init', at 0x4011c0
+2024-07-11 23:11:50,260 : Could not get get prototype of function init at 0x4011c0
+2024-07-11 23:11:50,260 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-07-11 23:11:51,381 : Function init at 0x4011c0: Running angr callable with concrete arguments.
+2024-07-11 23:11:52,582 : Function init at 0x4011c0 has return value: <BV64 0xc0000000>
+2024-07-11 23:11:52,583 : Function 'init' with 'dga_ramdo', at 4198848 has return bytes: b'\x10'
+2024-07-11 23:11:52,583 : Function 'init' with 'dga_ramdo', at 4198848 has return value: 
+2024-07-11 23:11:52,583 : Not a candidate function: 'init' at 0x4011c0, has return vale: <BV64 0xc0000000>
+2024-07-11 23:11:52,583 : [29/72] Analyzing Function 'sub_401234', at 0x401234
+2024-07-11 23:11:52,583 : Could not get get prototype of function sub_401234 at 0x401234
+2024-07-11 23:11:52,584 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-07-11 23:11:53,646 : Function sub_401234 at 0x401234: Running angr callable with concrete arguments.
+2024-07-11 23:11:54,766 : Function sub_401234 at 0x401234 has return value: <BV64 0xc0000000>
+2024-07-11 23:11:54,767 : Function 'sub_401234' with 'dga_ramdo', at 4198964 has return bytes: b'\x10'
+2024-07-11 23:11:54,767 : Function 'sub_401234' with 'dga_ramdo', at 4198964 has return value: 
+2024-07-11 23:11:54,768 : Not a candidate function: 'sub_401234' at 0x401234, has return vale: <BV64 0xc0000000>
+2024-07-11 23:11:54,768 : [30/72] Analyzing Function 'llist_create', at 0x401240
+2024-07-11 23:11:54,769 : Could not get get prototype of function llist_create at 0x401240
+2024-07-11 23:11:54,769 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-07-11 23:11:55,819 : Function llist_create at 0x401240: Running angr callable with concrete arguments.
+2024-07-11 23:11:56,911 : Function llist_create at 0x401240 has return value: <BV64 0xc0000000>
+2024-07-11 23:11:56,912 : Function 'llist_create' with 'dga_ramdo', at 4198976 has return bytes: b'\x10'
+2024-07-11 23:11:56,913 : Function 'llist_create' with 'dga_ramdo', at 4198976 has return value: 
+2024-07-11 23:11:56,913 : Not a candidate function: 'llist_create' at 0x401240, has return vale: <BV64 0xc0000000>
+2024-07-11 23:11:56,913 : [31/72] Analyzing Function 'sub_40129e', at 0x40129e
+2024-07-11 23:11:56,913 : Could not get get prototype of function sub_40129e at 0x40129e
+2024-07-11 23:11:56,913 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-07-11 23:11:58,020 : Function sub_40129e at 0x40129e: Running angr callable with concrete arguments.
+2024-07-11 23:12:00,047 : Function sub_40129e at 0x40129e has return value: <BV64 0x7fffffffffe9ba2>
+2024-07-11 23:12:00,051 : Function 'sub_40129e' with 'dga_ramdo', at 4199070 has return bytes: b'kusumyekqaaskcqw.org'
+2024-07-11 23:12:00,052 : Function 'sub_40129e' with 'dga_ramdo', at 4199070 has return value: kusumyekqaaskcqw.org
+2024-07-11 23:12:00,055 : ********************************************************************************
+2024-07-11 23:12:00,055 : End: 2024-07-11 23:12:00.055783

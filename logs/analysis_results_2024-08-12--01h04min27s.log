@@ -1,0 +1,20 @@
+2024-08-12 01:04:27,977 : Starting analysis of './samples/toy'
+2024-08-12 01:04:29,543 : CANDIDATE FUNCTION FOUND 'transform'!
+2024-08-12 01:04:29,543 : Analyzed sample './samples/toy' and got {4198729: ['transform', 'toyTransform', '']}
+2024-08-12 01:04:29,543 : Analysis of './samples/toy' took 1.566596 seconds.
+Found 1 functionalities
+2024-08-12 01:04:29,544 : Starting analysis of './samples/toy_ollvm_fla'
+2024-08-12 01:04:32,374 : CANDIDATE FUNCTION FOUND 'sub_401126'!
+2024-08-12 01:04:32,375 : Analyzed sample './samples/toy_ollvm_fla' and got {4198694: ['sub_401126', 'toyTransform', '']}
+2024-08-12 01:04:32,375 : Analysis of './samples/toy_ollvm_fla' took 2.830792 seconds.
+Found 1 functionalities
+2024-08-12 01:04:32,375 : Starting analysis of './samples/toy_ollvm_sub'
+2024-08-12 01:04:34,250 : CANDIDATE FUNCTION FOUND 'sub_401126'!
+2024-08-12 01:04:34,250 : Analyzed sample './samples/toy_ollvm_sub' and got {4198694: ['sub_401126', 'toyTransform', '']}
+2024-08-12 01:04:34,251 : Analysis of './samples/toy_ollvm_sub' took 1.875649 seconds.
+Found 1 functionalities
+2024-08-12 01:04:34,251 : Starting analysis of './samples/toy_tigress_vir'
+2024-08-12 01:04:40,099 : CANDIDATE FUNCTION FOUND 'transform'!
+2024-08-12 01:04:40,100 : Analyzed sample './samples/toy_tigress_vir' and got {4198911: ['transform', 'toyTransform', '']}
+2024-08-12 01:04:40,100 : Analysis of './samples/toy_tigress_vir' took 5.849325 seconds.
+Found 1 functionalities

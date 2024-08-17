@@ -1,0 +1,705 @@
+2024-08-12 01:04:27,974 : ################################################################################
+2024-08-12 01:04:27,975 : angr: 9.2.102
+2024-08-12 01:04:27,975 : angr: sys.version_info(major=3, minor=8, micro=10, releaselevel='final', serial=0)
+2024-08-12 01:04:27,975 : ################################################################################
+2024-08-12 01:04:27,975 : Start: 2024-08-12 01:04:27.975338
+2024-08-12 01:04:27,975 : ********************************************************************************
+2024-08-12 01:04:27,976 : Full Analysis: True
+2024-08-12 01:04:27,976 : Functionality Analysis : toyTransform
+2024-08-12 01:04:27,976 : ********************************************************************************
+2024-08-12 01:04:27,977 : Starting analysis of ./samples/toy
+2024-08-12 01:04:28,200 : toyTransform is a candidate
+2024-08-12 01:04:28,200 : Processing argument 0 at position 0
+2024-08-12 01:04:28,201 : [1/29] Analyzing Function '_init', at 0x401000
+2024-08-12 01:04:28,201 : Could not get get prototype of function _init at 0x401000
+2024-08-12 01:04:28,201 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:28,207 : Function _init at 0x401000: Running angr callable with concrete arguments.
+2024-08-12 01:04:28,333 : <BV32 0x0>
+2024-08-12 01:04:28,333 : Function _init at 0x401000 has return value: <BV32 0x0>
+2024-08-12 01:04:28,333 : Function '_init' with 'toyTransform', at 4198400 has return value: 0
+2024-08-12 01:04:28,334 : Not a candidate function: '_init' at 0x401000, has return vale: <BV32 0x0>
+2024-08-12 01:04:28,334 : [2/29] Analyzing Function 'sub_401020', at 0x401020
+2024-08-12 01:04:28,334 : Could not get get prototype of function sub_401020 at 0x401020
+2024-08-12 01:04:28,334 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:28,347 : Function sub_401020 at 0x401020: Running angr callable with concrete arguments.
+2024-08-12 01:04:28,449 : Exception: No paths returned from function
+Traceback (most recent call last):
+  File "simID_modified.py", line 473, in analyze_sample
+    ret_val = check_func(*c_input)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 74, in __call__
+    self.perform_call(*args, prototype=prototype)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 107, in perform_call
+    raise AngrCallableError("No paths returned from function")
+angr.errors.AngrCallableError: No paths returned from function
+2024-08-12 01:04:28,450 : [3/29] Analyzing Function 'sub_40102d', at 0x40102d
+2024-08-12 01:04:28,450 : Could not get get prototype of function sub_40102d at 0x40102d
+2024-08-12 01:04:28,451 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:28,461 : Function sub_40102d at 0x40102d: Running angr callable with concrete arguments.
+2024-08-12 01:04:28,511 : Exception: No paths returned from function
+Traceback (most recent call last):
+  File "simID_modified.py", line 473, in analyze_sample
+    ret_val = check_func(*c_input)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 74, in __call__
+    self.perform_call(*args, prototype=prototype)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 107, in perform_call
+    raise AngrCallableError("No paths returned from function")
+angr.errors.AngrCallableError: No paths returned from function
+2024-08-12 01:04:28,512 : [4/29] Analyzing Function 'sub_401030', at 0x401030
+2024-08-12 01:04:28,512 : Could not get get prototype of function sub_401030 at 0x401030
+2024-08-12 01:04:28,512 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:28,517 : Function sub_401030 at 0x401030: Running angr callable with concrete arguments.
+2024-08-12 01:04:28,572 : Exception: No paths returned from function
+Traceback (most recent call last):
+  File "simID_modified.py", line 473, in analyze_sample
+    ret_val = check_func(*c_input)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 74, in __call__
+    self.perform_call(*args, prototype=prototype)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 107, in perform_call
+    raise AngrCallableError("No paths returned from function")
+angr.errors.AngrCallableError: No paths returned from function
+2024-08-12 01:04:28,572 : [5/29] Analyzing Function 'sub_40103f', at 0x40103f
+2024-08-12 01:04:28,573 : Could not get get prototype of function sub_40103f at 0x40103f
+2024-08-12 01:04:28,573 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:28,582 : Function sub_40103f at 0x40103f: Running angr callable with concrete arguments.
+2024-08-12 01:04:28,617 : Exception: No paths returned from function
+Traceback (most recent call last):
+  File "simID_modified.py", line 473, in analyze_sample
+    ret_val = check_func(*c_input)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 74, in __call__
+    self.perform_call(*args, prototype=prototype)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 107, in perform_call
+    raise AngrCallableError("No paths returned from function")
+angr.errors.AngrCallableError: No paths returned from function
+2024-08-12 01:04:28,617 : [6/29] Analyzing Function '__cxa_finalize', at 0x401040
+2024-08-12 01:04:28,618 : [6/29] Skipping Function '__cxa_finalize', at 0x401040, because of arguments
+2024-08-12 01:04:28,618 : [7/29] Analyzing Function 'printf', at 0x401050
+2024-08-12 01:04:28,618 : Function printf at 0x401050 has args char *
+2024-08-12 01:04:28,619 : Function printf at 0x401050 has return type :  int (32 bits)
+2024-08-12 01:04:28,624 : Function printf at 0x401050: Running angr callable with concrete arguments.
+2024-08-12 01:04:28,661 : <BV32 0x0>
+2024-08-12 01:04:28,662 : Function printf at 0x401050 has return value: <BV32 0x0>
+2024-08-12 01:04:28,662 : Function 'printf' with 'toyTransform', at 4198480 has return value: 0
+2024-08-12 01:04:28,662 : Not a candidate function: 'printf' at 0x401050, has return vale: <BV32 0x0>
+2024-08-12 01:04:28,662 : [8/29] Analyzing Function '_start', at 0x401060
+2024-08-12 01:04:28,662 : Could not get get prototype of function _start at 0x401060
+2024-08-12 01:04:28,662 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:28,670 : Function _start at 0x401060: Running angr callable with concrete arguments.
+2024-08-12 01:04:28,869 : <BV32 0x0>
+2024-08-12 01:04:28,869 : Function _start at 0x401060 has return value: <BV32 0x0>
+2024-08-12 01:04:28,869 : Function '_start' with 'toyTransform', at 4198496 has return value: 0
+2024-08-12 01:04:28,869 : Not a candidate function: '_start' at 0x401060, has return vale: <BV32 0x0>
+2024-08-12 01:04:28,869 : [9/29] Analyzing Function 'sub_40108e', at 0x40108e
+2024-08-12 01:04:28,869 : Could not get get prototype of function sub_40108e at 0x40108e
+2024-08-12 01:04:28,869 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:28,874 : Function sub_40108e at 0x40108e: Running angr callable with concrete arguments.
+2024-08-12 01:04:28,906 : Exception: No paths returned from function
+Traceback (most recent call last):
+  File "simID_modified.py", line 473, in analyze_sample
+    ret_val = check_func(*c_input)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 74, in __call__
+    self.perform_call(*args, prototype=prototype)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 107, in perform_call
+    raise AngrCallableError("No paths returned from function")
+angr.errors.AngrCallableError: No paths returned from function
+2024-08-12 01:04:28,906 : [10/29] Analyzing Function 'sub_40108f', at 0x40108f
+2024-08-12 01:04:28,906 : Could not get get prototype of function sub_40108f at 0x40108f
+2024-08-12 01:04:28,906 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:28,911 : Function sub_40108f at 0x40108f: Running angr callable with concrete arguments.
+2024-08-12 01:04:28,944 : <BV32 0x404010>
+2024-08-12 01:04:28,944 : Function sub_40108f at 0x40108f has return value: <BV32 0x404010>
+2024-08-12 01:04:28,944 : Function 'sub_40108f' with 'toyTransform', at 4198543 has return value: 4210704
+2024-08-12 01:04:28,944 : Not a candidate function: 'sub_40108f' at 0x40108f, has return vale: <BV32 0x404010>
+2024-08-12 01:04:28,945 : [11/29] Analyzing Function 'deregister_tm_clones', at 0x401090
+2024-08-12 01:04:28,945 : Could not get get prototype of function deregister_tm_clones at 0x401090
+2024-08-12 01:04:28,945 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:28,953 : Function deregister_tm_clones at 0x401090: Running angr callable with concrete arguments.
+2024-08-12 01:04:28,992 : <BV32 0x404010>
+2024-08-12 01:04:28,992 : Function deregister_tm_clones at 0x401090 has return value: <BV32 0x404010>
+2024-08-12 01:04:28,992 : Function 'deregister_tm_clones' with 'toyTransform', at 4198544 has return value: 4210704
+2024-08-12 01:04:28,992 : Not a candidate function: 'deregister_tm_clones' at 0x401090, has return vale: <BV32 0x404010>
+2024-08-12 01:04:28,992 : [12/29] Analyzing Function 'sub_4010b9', at 0x4010b9
+2024-08-12 01:04:28,993 : Could not get get prototype of function sub_4010b9 at 0x4010b9
+2024-08-12 01:04:28,993 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:28,999 : Function sub_4010b9 at 0x4010b9: Running angr callable with concrete arguments.
+2024-08-12 01:04:29,038 : <BV32 0x0>
+2024-08-12 01:04:29,039 : Function sub_4010b9 at 0x4010b9 has return value: <BV32 0x0>
+2024-08-12 01:04:29,039 : Function 'sub_4010b9' with 'toyTransform', at 4198585 has return value: 0
+2024-08-12 01:04:29,039 : Not a candidate function: 'sub_4010b9' at 0x4010b9, has return vale: <BV32 0x0>
+2024-08-12 01:04:29,039 : [13/29] Analyzing Function 'register_tm_clones', at 0x4010c0
+2024-08-12 01:04:29,039 : Could not get get prototype of function register_tm_clones at 0x4010c0
+2024-08-12 01:04:29,040 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:29,046 : Function register_tm_clones at 0x4010c0: Running angr callable with concrete arguments.
+2024-08-12 01:04:29,110 : <BV32 0x0>
+2024-08-12 01:04:29,110 : Function register_tm_clones at 0x4010c0 has return value: <BV32 0x0>
+2024-08-12 01:04:29,110 : Function 'register_tm_clones' with 'toyTransform', at 4198592 has return value: 0
+2024-08-12 01:04:29,110 : Not a candidate function: 'register_tm_clones' at 0x4010c0, has return vale: <BV32 0x0>
+2024-08-12 01:04:29,110 : [14/29] Analyzing Function 'sub_4010f9', at 0x4010f9
+2024-08-12 01:04:29,111 : Could not get get prototype of function sub_4010f9 at 0x4010f9
+2024-08-12 01:04:29,111 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:29,120 : Function sub_4010f9 at 0x4010f9: Running angr callable with concrete arguments.
+2024-08-12 01:04:29,188 : <BV32 0x404010>
+2024-08-12 01:04:29,189 : Function sub_4010f9 at 0x4010f9 has return value: <BV32 0x404010>
+2024-08-12 01:04:29,189 : Function 'sub_4010f9' with 'toyTransform', at 4198649 has return value: 4210704
+2024-08-12 01:04:29,189 : Not a candidate function: 'sub_4010f9' at 0x4010f9, has return vale: <BV32 0x404010>
+2024-08-12 01:04:29,189 : [15/29] Analyzing Function '__do_global_dtors_aux', at 0x401100
+2024-08-12 01:04:29,189 : Could not get get prototype of function __do_global_dtors_aux at 0x401100
+2024-08-12 01:04:29,190 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:29,196 : Function __do_global_dtors_aux at 0x401100: Running angr callable with concrete arguments.
+2024-08-12 01:04:29,275 : <BV32 0x404010>
+2024-08-12 01:04:29,276 : Function __do_global_dtors_aux at 0x401100 has return value: <BV32 0x404010>
+2024-08-12 01:04:29,277 : Function '__do_global_dtors_aux' with 'toyTransform', at 4198656 has return value: 4210704
+2024-08-12 01:04:29,277 : Not a candidate function: '__do_global_dtors_aux' at 0x401100, has return vale: <BV32 0x404010>
+2024-08-12 01:04:29,277 : [16/29] Analyzing Function 'sub_401135', at 0x401135
+2024-08-12 01:04:29,277 : Could not get get prototype of function sub_401135 at 0x401135
+2024-08-12 01:04:29,277 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:29,285 : Function sub_401135 at 0x401135: Running angr callable with concrete arguments.
+2024-08-12 01:04:29,341 : <BV32 0x0>
+2024-08-12 01:04:29,341 : Function sub_401135 at 0x401135 has return value: <BV32 0x0>
+2024-08-12 01:04:29,344 : Function 'sub_401135' with 'toyTransform', at 4198709 has return value: 0
+2024-08-12 01:04:29,349 : Not a candidate function: 'sub_401135' at 0x401135, has return vale: <BV32 0x0>
+2024-08-12 01:04:29,349 : [17/29] Analyzing Function 'sub_401139', at 0x401139
+2024-08-12 01:04:29,349 : Could not get get prototype of function sub_401139 at 0x401139
+2024-08-12 01:04:29,349 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:29,359 : Function sub_401139 at 0x401139: Running angr callable with concrete arguments.
+2024-08-12 01:04:29,404 : <BV32 0x0>
+2024-08-12 01:04:29,404 : Function sub_401139 at 0x401139 has return value: <BV32 0x0>
+2024-08-12 01:04:29,405 : Function 'sub_401139' with 'toyTransform', at 4198713 has return value: 0
+2024-08-12 01:04:29,405 : Not a candidate function: 'sub_401139' at 0x401139, has return vale: <BV32 0x0>
+2024-08-12 01:04:29,405 : [18/29] Analyzing Function 'frame_dummy', at 0x401140
+2024-08-12 01:04:29,406 : Could not get get prototype of function frame_dummy at 0x401140
+2024-08-12 01:04:29,406 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:29,411 : Function frame_dummy at 0x401140: Running angr callable with concrete arguments.
+2024-08-12 01:04:29,459 : <BV32 0x0>
+2024-08-12 01:04:29,459 : Function frame_dummy at 0x401140 has return value: <BV32 0x0>
+2024-08-12 01:04:29,459 : Function 'frame_dummy' with 'toyTransform', at 4198720 has return value: 0
+2024-08-12 01:04:29,459 : Not a candidate function: 'frame_dummy' at 0x401140, has return vale: <BV32 0x0>
+2024-08-12 01:04:29,459 : [19/29] Analyzing Function 'transform', at 0x401149
+2024-08-12 01:04:29,460 : Could not get get prototype of function transform at 0x401149
+2024-08-12 01:04:29,460 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:29,469 : Function transform at 0x401149: Running angr callable with concrete arguments.
+2024-08-12 01:04:29,542 : <BV32 0x129>
+2024-08-12 01:04:29,543 : Function transform at 0x401149 has return value: <BV32 0x129>
+2024-08-12 01:04:29,543 : Function 'transform' with 'toyTransform', at 4198729 has return value: 297
+2024-08-12 01:04:29,544 : Starting analysis of ./samples/toy_ollvm_fla
+2024-08-12 01:04:29,788 : toyTransform is a candidate
+2024-08-12 01:04:29,789 : Processing argument 0 at position 0
+2024-08-12 01:04:29,790 : [1/29] Analyzing Function '_init', at 0x401000
+2024-08-12 01:04:29,791 : Could not get get prototype of function _init at 0x401000
+2024-08-12 01:04:29,791 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:29,797 : Function _init at 0x401000: Running angr callable with concrete arguments.
+2024-08-12 01:04:29,832 : <BV32 0x0>
+2024-08-12 01:04:29,832 : Function _init at 0x401000 has return value: <BV32 0x0>
+2024-08-12 01:04:29,832 : Function '_init' with 'toyTransform', at 4198400 has return value: 0
+2024-08-12 01:04:29,832 : Not a candidate function: '_init' at 0x401000, has return vale: <BV32 0x0>
+2024-08-12 01:04:29,832 : [2/29] Analyzing Function 'sub_401020', at 0x401020
+2024-08-12 01:04:29,833 : Could not get get prototype of function sub_401020 at 0x401020
+2024-08-12 01:04:29,833 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:29,840 : Function sub_401020 at 0x401020: Running angr callable with concrete arguments.
+2024-08-12 01:04:29,887 : Exception: No paths returned from function
+Traceback (most recent call last):
+  File "simID_modified.py", line 473, in analyze_sample
+    ret_val = check_func(*c_input)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 74, in __call__
+    self.perform_call(*args, prototype=prototype)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 107, in perform_call
+    raise AngrCallableError("No paths returned from function")
+angr.errors.AngrCallableError: No paths returned from function
+2024-08-12 01:04:29,888 : [3/29] Analyzing Function 'sub_40102c', at 0x40102c
+2024-08-12 01:04:29,889 : Could not get get prototype of function sub_40102c at 0x40102c
+2024-08-12 01:04:29,889 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:29,899 : Function sub_40102c at 0x40102c: Running angr callable with concrete arguments.
+2024-08-12 01:04:29,968 : <BV32 0x0>
+2024-08-12 01:04:29,983 : Function sub_40102c at 0x40102c has return value: <BV32 0x0>
+2024-08-12 01:04:29,983 : Function 'sub_40102c' with 'toyTransform', at 4198444 has return value: 0
+2024-08-12 01:04:29,984 : Not a candidate function: 'sub_40102c' at 0x40102c, has return vale: <BV32 0x0>
+2024-08-12 01:04:29,984 : [4/29] Analyzing Function 'printf', at 0x401030
+2024-08-12 01:04:29,984 : Function printf at 0x401030 has args char *
+2024-08-12 01:04:29,984 : Function printf at 0x401030 has return type :  int (32 bits)
+2024-08-12 01:04:29,995 : Function printf at 0x401030: Running angr callable with concrete arguments.
+2024-08-12 01:04:30,083 : <BV32 0x0>
+2024-08-12 01:04:30,085 : Function printf at 0x401030 has return value: <BV32 0x0>
+2024-08-12 01:04:30,086 : Function 'printf' with 'toyTransform', at 4198448 has return value: 0
+2024-08-12 01:04:30,086 : Not a candidate function: 'printf' at 0x401030, has return vale: <BV32 0x0>
+2024-08-12 01:04:30,086 : [5/29] Analyzing Function '_start', at 0x401040
+2024-08-12 01:04:30,086 : Could not get get prototype of function _start at 0x401040
+2024-08-12 01:04:30,086 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:30,095 : Function _start at 0x401040: Running angr callable with concrete arguments.
+2024-08-12 01:04:30,921 : <BV32 0x0>
+2024-08-12 01:04:30,922 : Function _start at 0x401040 has return value: <BV32 0x0>
+2024-08-12 01:04:30,930 : Function '_start' with 'toyTransform', at 4198464 has return value: 0
+2024-08-12 01:04:30,938 : Not a candidate function: '_start' at 0x401040, has return vale: <BV32 0x0>
+2024-08-12 01:04:30,938 : [6/29] Analyzing Function 'sub_40106e', at 0x40106e
+2024-08-12 01:04:30,943 : Could not get get prototype of function sub_40106e at 0x40106e
+2024-08-12 01:04:30,943 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:30,952 : Function sub_40106e at 0x40106e: Running angr callable with concrete arguments.
+2024-08-12 01:04:30,982 : Exception: No paths returned from function
+Traceback (most recent call last):
+  File "simID_modified.py", line 473, in analyze_sample
+    ret_val = check_func(*c_input)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 74, in __call__
+    self.perform_call(*args, prototype=prototype)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 107, in perform_call
+    raise AngrCallableError("No paths returned from function")
+angr.errors.AngrCallableError: No paths returned from function
+2024-08-12 01:04:30,983 : [7/29] Analyzing Function 'sub_40106f', at 0x40106f
+2024-08-12 01:04:30,983 : Could not get get prototype of function sub_40106f at 0x40106f
+2024-08-12 01:04:30,983 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:30,989 : Function sub_40106f at 0x40106f: Running angr callable with concrete arguments.
+2024-08-12 01:04:31,036 : <BV32 0x0>
+2024-08-12 01:04:31,037 : Function sub_40106f at 0x40106f has return value: <BV32 0x0>
+2024-08-12 01:04:31,038 : Function 'sub_40106f' with 'toyTransform', at 4198511 has return value: 0
+2024-08-12 01:04:31,038 : Not a candidate function: 'sub_40106f' at 0x40106f, has return vale: <BV32 0x0>
+2024-08-12 01:04:31,038 : [8/29] Analyzing Function '_dl_relocate_static_pie', at 0x401070
+2024-08-12 01:04:31,038 : Could not get get prototype of function _dl_relocate_static_pie at 0x401070
+2024-08-12 01:04:31,038 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:31,187 : Function _dl_relocate_static_pie at 0x401070: Running angr callable with concrete arguments.
+2024-08-12 01:04:31,233 : <BV32 0x0>
+2024-08-12 01:04:31,233 : Function _dl_relocate_static_pie at 0x401070 has return value: <BV32 0x0>
+2024-08-12 01:04:31,233 : Function '_dl_relocate_static_pie' with 'toyTransform', at 4198512 has return value: 0
+2024-08-12 01:04:31,233 : Not a candidate function: '_dl_relocate_static_pie' at 0x401070, has return vale: <BV32 0x0>
+2024-08-12 01:04:31,234 : [9/29] Analyzing Function 'sub_401075', at 0x401075
+2024-08-12 01:04:31,234 : Could not get get prototype of function sub_401075 at 0x401075
+2024-08-12 01:04:31,234 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:31,239 : Function sub_401075 at 0x401075: Running angr callable with concrete arguments.
+2024-08-12 01:04:31,302 : <BV32 0x404030>
+2024-08-12 01:04:31,303 : Function sub_401075 at 0x401075 has return value: <BV32 0x404030>
+2024-08-12 01:04:31,303 : Function 'sub_401075' with 'toyTransform', at 4198517 has return value: 4210736
+2024-08-12 01:04:31,303 : Not a candidate function: 'sub_401075' at 0x401075, has return vale: <BV32 0x404030>
+2024-08-12 01:04:31,303 : [10/29] Analyzing Function 'deregister_tm_clones', at 0x401080
+2024-08-12 01:04:31,304 : Could not get get prototype of function deregister_tm_clones at 0x401080
+2024-08-12 01:04:31,306 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:31,317 : Function deregister_tm_clones at 0x401080: Running angr callable with concrete arguments.
+2024-08-12 01:04:31,355 : <BV32 0x404030>
+2024-08-12 01:04:31,383 : Function deregister_tm_clones at 0x401080 has return value: <BV32 0x404030>
+2024-08-12 01:04:31,400 : Function 'deregister_tm_clones' with 'toyTransform', at 4198528 has return value: 4210736
+2024-08-12 01:04:31,401 : Not a candidate function: 'deregister_tm_clones' at 0x401080, has return vale: <BV32 0x404030>
+2024-08-12 01:04:31,401 : [11/29] Analyzing Function 'sub_4010a1', at 0x4010a1
+2024-08-12 01:04:31,401 : Could not get get prototype of function sub_4010a1 at 0x4010a1
+2024-08-12 01:04:31,401 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:31,411 : Function sub_4010a1 at 0x4010a1: Running angr callable with concrete arguments.
+2024-08-12 01:04:31,450 : <BV32 0x0>
+2024-08-12 01:04:31,451 : Function sub_4010a1 at 0x4010a1 has return value: <BV32 0x0>
+2024-08-12 01:04:31,451 : Function 'sub_4010a1' with 'toyTransform', at 4198561 has return value: 0
+2024-08-12 01:04:31,451 : Not a candidate function: 'sub_4010a1' at 0x4010a1, has return vale: <BV32 0x0>
+2024-08-12 01:04:31,451 : [12/29] Analyzing Function 'register_tm_clones', at 0x4010b0
+2024-08-12 01:04:31,451 : Could not get get prototype of function register_tm_clones at 0x4010b0
+2024-08-12 01:04:31,452 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:31,458 : Function register_tm_clones at 0x4010b0: Running angr callable with concrete arguments.
+2024-08-12 01:04:31,494 : <BV32 0x0>
+2024-08-12 01:04:31,494 : Function register_tm_clones at 0x4010b0 has return value: <BV32 0x0>
+2024-08-12 01:04:31,495 : Function 'register_tm_clones' with 'toyTransform', at 4198576 has return value: 0
+2024-08-12 01:04:31,496 : Not a candidate function: 'register_tm_clones' at 0x4010b0, has return vale: <BV32 0x0>
+2024-08-12 01:04:31,496 : [13/29] Analyzing Function 'sub_4010e1', at 0x4010e1
+2024-08-12 01:04:31,496 : Could not get get prototype of function sub_4010e1 at 0x4010e1
+2024-08-12 01:04:31,496 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:31,501 : Function sub_4010e1 at 0x4010e1: Running angr callable with concrete arguments.
+2024-08-12 01:04:31,553 : <BV32 0x404030>
+2024-08-12 01:04:31,553 : Function sub_4010e1 at 0x4010e1 has return value: <BV32 0x404030>
+2024-08-12 01:04:31,555 : Function 'sub_4010e1' with 'toyTransform', at 4198625 has return value: 4210736
+2024-08-12 01:04:31,555 : Not a candidate function: 'sub_4010e1' at 0x4010e1, has return vale: <BV32 0x404030>
+2024-08-12 01:04:31,555 : [14/29] Analyzing Function '__do_global_dtors_aux', at 0x4010f0
+2024-08-12 01:04:31,555 : Could not get get prototype of function __do_global_dtors_aux at 0x4010f0
+2024-08-12 01:04:31,555 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:31,561 : Function __do_global_dtors_aux at 0x4010f0: Running angr callable with concrete arguments.
+2024-08-12 01:04:31,611 : <BV32 0x404030>
+2024-08-12 01:04:31,624 : Function __do_global_dtors_aux at 0x4010f0 has return value: <BV32 0x404030>
+2024-08-12 01:04:31,625 : Function '__do_global_dtors_aux' with 'toyTransform', at 4198640 has return value: 4210736
+2024-08-12 01:04:31,625 : Not a candidate function: '__do_global_dtors_aux' at 0x4010f0, has return vale: <BV32 0x404030>
+2024-08-12 01:04:31,625 : [15/29] Analyzing Function 'sub_40110f', at 0x40110f
+2024-08-12 01:04:31,626 : Could not get get prototype of function sub_40110f at 0x40110f
+2024-08-12 01:04:31,626 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:31,635 : Function sub_40110f at 0x40110f: Running angr callable with concrete arguments.
+2024-08-12 01:04:31,666 : <BV32 0x0>
+2024-08-12 01:04:31,666 : Function sub_40110f at 0x40110f has return value: <BV32 0x0>
+2024-08-12 01:04:31,666 : Function 'sub_40110f' with 'toyTransform', at 4198671 has return value: 0
+2024-08-12 01:04:31,666 : Not a candidate function: 'sub_40110f' at 0x40110f, has return vale: <BV32 0x0>
+2024-08-12 01:04:31,666 : [16/29] Analyzing Function 'sub_401111', at 0x401111
+2024-08-12 01:04:31,667 : Could not get get prototype of function sub_401111 at 0x401111
+2024-08-12 01:04:31,667 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:31,676 : Function sub_401111 at 0x401111: Running angr callable with concrete arguments.
+2024-08-12 01:04:31,720 : <BV32 0x0>
+2024-08-12 01:04:31,721 : Function sub_401111 at 0x401111 has return value: <BV32 0x0>
+2024-08-12 01:04:31,721 : Function 'sub_401111' with 'toyTransform', at 4198673 has return value: 0
+2024-08-12 01:04:31,721 : Not a candidate function: 'sub_401111' at 0x401111, has return vale: <BV32 0x0>
+2024-08-12 01:04:31,721 : [17/29] Analyzing Function 'frame_dummy', at 0x401120
+2024-08-12 01:04:31,721 : Could not get get prototype of function frame_dummy at 0x401120
+2024-08-12 01:04:31,721 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:31,732 : Function frame_dummy at 0x401120: Running angr callable with concrete arguments.
+2024-08-12 01:04:31,785 : <BV32 0x0>
+2024-08-12 01:04:31,786 : Function frame_dummy at 0x401120 has return value: <BV32 0x0>
+2024-08-12 01:04:31,786 : Function 'frame_dummy' with 'toyTransform', at 4198688 has return value: 0
+2024-08-12 01:04:31,786 : Not a candidate function: 'frame_dummy' at 0x401120, has return vale: <BV32 0x0>
+2024-08-12 01:04:31,786 : [18/29] Analyzing Function 'sub_401126', at 0x401126
+2024-08-12 01:04:31,786 : Could not get get prototype of function sub_401126 at 0x401126
+2024-08-12 01:04:31,786 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:31,793 : Function sub_401126 at 0x401126: Running angr callable with concrete arguments.
+2024-08-12 01:04:32,374 : <BV32 0x129>
+2024-08-12 01:04:32,374 : Function sub_401126 at 0x401126 has return value: <BV32 0x129>
+2024-08-12 01:04:32,374 : Function 'sub_401126' with 'toyTransform', at 4198694 has return value: 297
+2024-08-12 01:04:32,375 : Starting analysis of ./samples/toy_ollvm_sub
+2024-08-12 01:04:32,515 : toyTransform is a candidate
+2024-08-12 01:04:32,523 : Processing argument 0 at position 0
+2024-08-12 01:04:32,523 : [1/30] Analyzing Function '_init', at 0x401000
+2024-08-12 01:04:32,523 : Could not get get prototype of function _init at 0x401000
+2024-08-12 01:04:32,524 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:32,534 : Function _init at 0x401000: Running angr callable with concrete arguments.
+2024-08-12 01:04:32,712 : <BV32 0x0>
+2024-08-12 01:04:32,722 : Function _init at 0x401000 has return value: <BV32 0x0>
+2024-08-12 01:04:32,738 : Function '_init' with 'toyTransform', at 4198400 has return value: 0
+2024-08-12 01:04:32,738 : Not a candidate function: '_init' at 0x401000, has return vale: <BV32 0x0>
+2024-08-12 01:04:32,738 : [2/30] Analyzing Function 'sub_401020', at 0x401020
+2024-08-12 01:04:32,738 : Could not get get prototype of function sub_401020 at 0x401020
+2024-08-12 01:04:32,738 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:32,746 : Function sub_401020 at 0x401020: Running angr callable with concrete arguments.
+2024-08-12 01:04:32,797 : Exception: No paths returned from function
+Traceback (most recent call last):
+  File "simID_modified.py", line 473, in analyze_sample
+    ret_val = check_func(*c_input)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 74, in __call__
+    self.perform_call(*args, prototype=prototype)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 107, in perform_call
+    raise AngrCallableError("No paths returned from function")
+angr.errors.AngrCallableError: No paths returned from function
+2024-08-12 01:04:32,800 : [3/30] Analyzing Function 'sub_40102c', at 0x40102c
+2024-08-12 01:04:32,802 : Could not get get prototype of function sub_40102c at 0x40102c
+2024-08-12 01:04:32,807 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:32,821 : Function sub_40102c at 0x40102c: Running angr callable with concrete arguments.
+2024-08-12 01:04:32,879 : <BV32 0x0>
+2024-08-12 01:04:32,880 : Function sub_40102c at 0x40102c has return value: <BV32 0x0>
+2024-08-12 01:04:32,880 : Function 'sub_40102c' with 'toyTransform', at 4198444 has return value: 0
+2024-08-12 01:04:32,880 : Not a candidate function: 'sub_40102c' at 0x40102c, has return vale: <BV32 0x0>
+2024-08-12 01:04:32,880 : [4/30] Analyzing Function 'printf', at 0x401030
+2024-08-12 01:04:32,880 : Function printf at 0x401030 has args char *
+2024-08-12 01:04:32,880 : Function printf at 0x401030 has return type :  int (32 bits)
+2024-08-12 01:04:32,887 : Function printf at 0x401030: Running angr callable with concrete arguments.
+2024-08-12 01:04:32,957 : <BV32 0x0>
+2024-08-12 01:04:32,961 : Function printf at 0x401030 has return value: <BV32 0x0>
+2024-08-12 01:04:32,970 : Function 'printf' with 'toyTransform', at 4198448 has return value: 0
+2024-08-12 01:04:32,970 : Not a candidate function: 'printf' at 0x401030, has return vale: <BV32 0x0>
+2024-08-12 01:04:32,970 : [5/30] Analyzing Function '_start', at 0x401040
+2024-08-12 01:04:32,970 : Could not get get prototype of function _start at 0x401040
+2024-08-12 01:04:32,971 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:32,978 : Function _start at 0x401040: Running angr callable with concrete arguments.
+2024-08-12 01:04:33,311 : <BV32 0x0>
+2024-08-12 01:04:33,311 : Function _start at 0x401040 has return value: <BV32 0x0>
+2024-08-12 01:04:33,311 : Function '_start' with 'toyTransform', at 4198464 has return value: 0
+2024-08-12 01:04:33,311 : Not a candidate function: '_start' at 0x401040, has return vale: <BV32 0x0>
+2024-08-12 01:04:33,312 : [6/30] Analyzing Function 'sub_40106e', at 0x40106e
+2024-08-12 01:04:33,312 : Could not get get prototype of function sub_40106e at 0x40106e
+2024-08-12 01:04:33,312 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:33,317 : Function sub_40106e at 0x40106e: Running angr callable with concrete arguments.
+2024-08-12 01:04:33,359 : Exception: No paths returned from function
+Traceback (most recent call last):
+  File "simID_modified.py", line 473, in analyze_sample
+    ret_val = check_func(*c_input)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 74, in __call__
+    self.perform_call(*args, prototype=prototype)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 107, in perform_call
+    raise AngrCallableError("No paths returned from function")
+angr.errors.AngrCallableError: No paths returned from function
+2024-08-12 01:04:33,360 : [7/30] Analyzing Function 'sub_40106f', at 0x40106f
+2024-08-12 01:04:33,361 : Could not get get prototype of function sub_40106f at 0x40106f
+2024-08-12 01:04:33,361 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:33,368 : Function sub_40106f at 0x40106f: Running angr callable with concrete arguments.
+2024-08-12 01:04:33,412 : <BV32 0x0>
+2024-08-12 01:04:33,414 : Function sub_40106f at 0x40106f has return value: <BV32 0x0>
+2024-08-12 01:04:33,414 : Function 'sub_40106f' with 'toyTransform', at 4198511 has return value: 0
+2024-08-12 01:04:33,414 : Not a candidate function: 'sub_40106f' at 0x40106f, has return vale: <BV32 0x0>
+2024-08-12 01:04:33,414 : [8/30] Analyzing Function '_dl_relocate_static_pie', at 0x401070
+2024-08-12 01:04:33,414 : Could not get get prototype of function _dl_relocate_static_pie at 0x401070
+2024-08-12 01:04:33,414 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:33,426 : Function _dl_relocate_static_pie at 0x401070: Running angr callable with concrete arguments.
+2024-08-12 01:04:33,498 : <BV32 0x0>
+2024-08-12 01:04:33,501 : Function _dl_relocate_static_pie at 0x401070 has return value: <BV32 0x0>
+2024-08-12 01:04:33,501 : Function '_dl_relocate_static_pie' with 'toyTransform', at 4198512 has return value: 0
+2024-08-12 01:04:33,501 : Not a candidate function: '_dl_relocate_static_pie' at 0x401070, has return vale: <BV32 0x0>
+2024-08-12 01:04:33,501 : [9/30] Analyzing Function 'sub_401075', at 0x401075
+2024-08-12 01:04:33,501 : Could not get get prototype of function sub_401075 at 0x401075
+2024-08-12 01:04:33,501 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:33,508 : Function sub_401075 at 0x401075: Running angr callable with concrete arguments.
+2024-08-12 01:04:33,552 : <BV32 0x404030>
+2024-08-12 01:04:33,552 : Function sub_401075 at 0x401075 has return value: <BV32 0x404030>
+2024-08-12 01:04:33,552 : Function 'sub_401075' with 'toyTransform', at 4198517 has return value: 4210736
+2024-08-12 01:04:33,553 : Not a candidate function: 'sub_401075' at 0x401075, has return vale: <BV32 0x404030>
+2024-08-12 01:04:33,553 : [10/30] Analyzing Function 'deregister_tm_clones', at 0x401080
+2024-08-12 01:04:33,553 : Could not get get prototype of function deregister_tm_clones at 0x401080
+2024-08-12 01:04:33,553 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:33,563 : Function deregister_tm_clones at 0x401080: Running angr callable with concrete arguments.
+2024-08-12 01:04:33,630 : <BV32 0x404030>
+2024-08-12 01:04:33,637 : Function deregister_tm_clones at 0x401080 has return value: <BV32 0x404030>
+2024-08-12 01:04:33,637 : Function 'deregister_tm_clones' with 'toyTransform', at 4198528 has return value: 4210736
+2024-08-12 01:04:33,637 : Not a candidate function: 'deregister_tm_clones' at 0x401080, has return vale: <BV32 0x404030>
+2024-08-12 01:04:33,637 : [11/30] Analyzing Function 'sub_4010a1', at 0x4010a1
+2024-08-12 01:04:33,637 : Could not get get prototype of function sub_4010a1 at 0x4010a1
+2024-08-12 01:04:33,637 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:33,647 : Function sub_4010a1 at 0x4010a1: Running angr callable with concrete arguments.
+2024-08-12 01:04:33,689 : <BV32 0x0>
+2024-08-12 01:04:33,690 : Function sub_4010a1 at 0x4010a1 has return value: <BV32 0x0>
+2024-08-12 01:04:33,690 : Function 'sub_4010a1' with 'toyTransform', at 4198561 has return value: 0
+2024-08-12 01:04:33,690 : Not a candidate function: 'sub_4010a1' at 0x4010a1, has return vale: <BV32 0x0>
+2024-08-12 01:04:33,690 : [12/30] Analyzing Function 'register_tm_clones', at 0x4010b0
+2024-08-12 01:04:33,690 : Could not get get prototype of function register_tm_clones at 0x4010b0
+2024-08-12 01:04:33,690 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:33,702 : Function register_tm_clones at 0x4010b0: Running angr callable with concrete arguments.
+2024-08-12 01:04:33,758 : <BV32 0x0>
+2024-08-12 01:04:33,758 : Function register_tm_clones at 0x4010b0 has return value: <BV32 0x0>
+2024-08-12 01:04:33,758 : Function 'register_tm_clones' with 'toyTransform', at 4198576 has return value: 0
+2024-08-12 01:04:33,758 : Not a candidate function: 'register_tm_clones' at 0x4010b0, has return vale: <BV32 0x0>
+2024-08-12 01:04:33,758 : [13/30] Analyzing Function 'sub_4010e1', at 0x4010e1
+2024-08-12 01:04:33,759 : Could not get get prototype of function sub_4010e1 at 0x4010e1
+2024-08-12 01:04:33,759 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:33,766 : Function sub_4010e1 at 0x4010e1: Running angr callable with concrete arguments.
+2024-08-12 01:04:33,829 : <BV32 0x404030>
+2024-08-12 01:04:33,832 : Function sub_4010e1 at 0x4010e1 has return value: <BV32 0x404030>
+2024-08-12 01:04:33,832 : Function 'sub_4010e1' with 'toyTransform', at 4198625 has return value: 4210736
+2024-08-12 01:04:33,832 : Not a candidate function: 'sub_4010e1' at 0x4010e1, has return vale: <BV32 0x404030>
+2024-08-12 01:04:33,832 : [14/30] Analyzing Function '__do_global_dtors_aux', at 0x4010f0
+2024-08-12 01:04:33,832 : Could not get get prototype of function __do_global_dtors_aux at 0x4010f0
+2024-08-12 01:04:33,832 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:33,839 : Function __do_global_dtors_aux at 0x4010f0: Running angr callable with concrete arguments.
+2024-08-12 01:04:33,923 : <BV32 0x404030>
+2024-08-12 01:04:33,927 : Function __do_global_dtors_aux at 0x4010f0 has return value: <BV32 0x404030>
+2024-08-12 01:04:33,927 : Function '__do_global_dtors_aux' with 'toyTransform', at 4198640 has return value: 4210736
+2024-08-12 01:04:33,927 : Not a candidate function: '__do_global_dtors_aux' at 0x4010f0, has return vale: <BV32 0x404030>
+2024-08-12 01:04:33,927 : [15/30] Analyzing Function 'sub_40110f', at 0x40110f
+2024-08-12 01:04:33,927 : Could not get get prototype of function sub_40110f at 0x40110f
+2024-08-12 01:04:33,927 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:33,939 : Function sub_40110f at 0x40110f: Running angr callable with concrete arguments.
+2024-08-12 01:04:33,977 : <BV32 0x0>
+2024-08-12 01:04:33,981 : Function sub_40110f at 0x40110f has return value: <BV32 0x0>
+2024-08-12 01:04:33,981 : Function 'sub_40110f' with 'toyTransform', at 4198671 has return value: 0
+2024-08-12 01:04:33,982 : Not a candidate function: 'sub_40110f' at 0x40110f, has return vale: <BV32 0x0>
+2024-08-12 01:04:33,982 : [16/30] Analyzing Function 'sub_401111', at 0x401111
+2024-08-12 01:04:33,982 : Could not get get prototype of function sub_401111 at 0x401111
+2024-08-12 01:04:33,983 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:33,996 : Function sub_401111 at 0x401111: Running angr callable with concrete arguments.
+2024-08-12 01:04:34,055 : <BV32 0x0>
+2024-08-12 01:04:34,059 : Function sub_401111 at 0x401111 has return value: <BV32 0x0>
+2024-08-12 01:04:34,059 : Function 'sub_401111' with 'toyTransform', at 4198673 has return value: 0
+2024-08-12 01:04:34,059 : Not a candidate function: 'sub_401111' at 0x401111, has return vale: <BV32 0x0>
+2024-08-12 01:04:34,059 : [17/30] Analyzing Function 'frame_dummy', at 0x401120
+2024-08-12 01:04:34,060 : Could not get get prototype of function frame_dummy at 0x401120
+2024-08-12 01:04:34,062 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:34,071 : Function frame_dummy at 0x401120: Running angr callable with concrete arguments.
+2024-08-12 01:04:34,108 : <BV32 0x0>
+2024-08-12 01:04:34,119 : Function frame_dummy at 0x401120 has return value: <BV32 0x0>
+2024-08-12 01:04:34,123 : Function 'frame_dummy' with 'toyTransform', at 4198688 has return value: 0
+2024-08-12 01:04:34,131 : Not a candidate function: 'frame_dummy' at 0x401120, has return vale: <BV32 0x0>
+2024-08-12 01:04:34,134 : [18/30] Analyzing Function 'sub_401126', at 0x401126
+2024-08-12 01:04:34,135 : Could not get get prototype of function sub_401126 at 0x401126
+2024-08-12 01:04:34,138 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:34,156 : Function sub_401126 at 0x401126: Running angr callable with concrete arguments.
+2024-08-12 01:04:34,250 : <BV32 0x129>
+2024-08-12 01:04:34,250 : Function sub_401126 at 0x401126 has return value: <BV32 0x129>
+2024-08-12 01:04:34,250 : Function 'sub_401126' with 'toyTransform', at 4198694 has return value: 297
+2024-08-12 01:04:34,251 : Starting analysis of ./samples/toy_tigress_vir
+2024-08-12 01:04:34,615 : toyTransform is a candidate
+2024-08-12 01:04:34,615 : Processing argument 0 at position 0
+2024-08-12 01:04:34,615 : [1/45] Analyzing Function '_init', at 0x401000
+2024-08-12 01:04:34,616 : Could not get get prototype of function _init at 0x401000
+2024-08-12 01:04:34,616 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:34,621 : Function _init at 0x401000: Running angr callable with concrete arguments.
+2024-08-12 01:04:34,660 : <BV32 0x0>
+2024-08-12 01:04:34,660 : Function _init at 0x401000 has return value: <BV32 0x0>
+2024-08-12 01:04:34,660 : Function '_init' with 'toyTransform', at 4198400 has return value: 0
+2024-08-12 01:04:34,661 : Not a candidate function: '_init' at 0x401000, has return vale: <BV32 0x0>
+2024-08-12 01:04:34,661 : [2/45] Analyzing Function 'sub_401020', at 0x401020
+2024-08-12 01:04:34,661 : Could not get get prototype of function sub_401020 at 0x401020
+2024-08-12 01:04:34,661 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:34,668 : Function sub_401020 at 0x401020: Running angr callable with concrete arguments.
+2024-08-12 01:04:34,698 : Exception: No paths returned from function
+Traceback (most recent call last):
+  File "simID_modified.py", line 473, in analyze_sample
+    ret_val = check_func(*c_input)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 74, in __call__
+    self.perform_call(*args, prototype=prototype)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 107, in perform_call
+    raise AngrCallableError("No paths returned from function")
+angr.errors.AngrCallableError: No paths returned from function
+2024-08-12 01:04:34,698 : [3/45] Analyzing Function 'sub_40102d', at 0x40102d
+2024-08-12 01:04:34,699 : Could not get get prototype of function sub_40102d at 0x40102d
+2024-08-12 01:04:34,699 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:34,705 : Function sub_40102d at 0x40102d: Running angr callable with concrete arguments.
+2024-08-12 01:04:34,761 : Exception: No paths returned from function
+Traceback (most recent call last):
+  File "simID_modified.py", line 473, in analyze_sample
+    ret_val = check_func(*c_input)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 74, in __call__
+    self.perform_call(*args, prototype=prototype)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 107, in perform_call
+    raise AngrCallableError("No paths returned from function")
+angr.errors.AngrCallableError: No paths returned from function
+2024-08-12 01:04:34,764 : [4/45] Analyzing Function 'sub_401030', at 0x401030
+2024-08-12 01:04:34,764 : Could not get get prototype of function sub_401030 at 0x401030
+2024-08-12 01:04:34,764 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:34,774 : Function sub_401030 at 0x401030: Running angr callable with concrete arguments.
+2024-08-12 01:04:34,828 : Exception: No paths returned from function
+Traceback (most recent call last):
+  File "simID_modified.py", line 473, in analyze_sample
+    ret_val = check_func(*c_input)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 74, in __call__
+    self.perform_call(*args, prototype=prototype)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 107, in perform_call
+    raise AngrCallableError("No paths returned from function")
+angr.errors.AngrCallableError: No paths returned from function
+2024-08-12 01:04:34,840 : [5/45] Analyzing Function 'sub_40103f', at 0x40103f
+2024-08-12 01:04:34,847 : Could not get get prototype of function sub_40103f at 0x40103f
+2024-08-12 01:04:34,848 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:34,855 : Function sub_40103f at 0x40103f: Running angr callable with concrete arguments.
+2024-08-12 01:04:34,923 : Exception: No paths returned from function
+Traceback (most recent call last):
+  File "simID_modified.py", line 473, in analyze_sample
+    ret_val = check_func(*c_input)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 74, in __call__
+    self.perform_call(*args, prototype=prototype)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 107, in perform_call
+    raise AngrCallableError("No paths returned from function")
+angr.errors.AngrCallableError: No paths returned from function
+2024-08-12 01:04:34,928 : [6/45] Analyzing Function 'sub_401040', at 0x401040
+2024-08-12 01:04:34,928 : Could not get get prototype of function sub_401040 at 0x401040
+2024-08-12 01:04:34,928 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:34,939 : Function sub_401040 at 0x401040: Running angr callable with concrete arguments.
+2024-08-12 01:04:35,004 : Exception: No paths returned from function
+Traceback (most recent call last):
+  File "simID_modified.py", line 473, in analyze_sample
+    ret_val = check_func(*c_input)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 74, in __call__
+    self.perform_call(*args, prototype=prototype)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 107, in perform_call
+    raise AngrCallableError("No paths returned from function")
+angr.errors.AngrCallableError: No paths returned from function
+2024-08-12 01:04:35,007 : [7/45] Analyzing Function 'sub_40104f', at 0x40104f
+2024-08-12 01:04:35,007 : Could not get get prototype of function sub_40104f at 0x40104f
+2024-08-12 01:04:35,007 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:35,016 : Function sub_40104f at 0x40104f: Running angr callable with concrete arguments.
+2024-08-12 01:04:35,087 : Exception: No paths returned from function
+Traceback (most recent call last):
+  File "simID_modified.py", line 473, in analyze_sample
+    ret_val = check_func(*c_input)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 74, in __call__
+    self.perform_call(*args, prototype=prototype)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 107, in perform_call
+    raise AngrCallableError("No paths returned from function")
+angr.errors.AngrCallableError: No paths returned from function
+2024-08-12 01:04:35,088 : [8/45] Analyzing Function '__cxa_finalize', at 0x401050
+2024-08-12 01:04:35,089 : [8/45] Skipping Function '__cxa_finalize', at 0x401050, because of arguments
+2024-08-12 01:04:35,090 : [9/45] Analyzing Function '__stack_chk_fail', at 0x401060
+2024-08-12 01:04:35,090 : [9/45] Skipping Function '__stack_chk_fail', at 0x401060, because of arguments
+2024-08-12 01:04:35,091 : [10/45] Analyzing Function 'printf', at 0x401070
+2024-08-12 01:04:35,093 : Function printf at 0x401070 has args char *
+2024-08-12 01:04:35,093 : Function printf at 0x401070 has return type :  int (32 bits)
+2024-08-12 01:04:35,112 : Function printf at 0x401070: Running angr callable with concrete arguments.
+2024-08-12 01:04:35,212 : <BV32 0x0>
+2024-08-12 01:04:35,221 : Function printf at 0x401070 has return value: <BV32 0x0>
+2024-08-12 01:04:35,230 : Function 'printf' with 'toyTransform', at 4198512 has return value: 0
+2024-08-12 01:04:35,231 : Not a candidate function: 'printf' at 0x401070, has return vale: <BV32 0x0>
+2024-08-12 01:04:35,231 : [11/45] Analyzing Function '_start', at 0x401080
+2024-08-12 01:04:35,231 : Could not get get prototype of function _start at 0x401080
+2024-08-12 01:04:35,231 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:35,243 : Function _start at 0x401080: Running angr callable with concrete arguments.
+2024-08-12 01:04:36,849 : <BV32 0x0>
+2024-08-12 01:04:36,849 : Function _start at 0x401080 has return value: <BV32 0x0>
+2024-08-12 01:04:36,850 : Function '_start' with 'toyTransform', at 4198528 has return value: 0
+2024-08-12 01:04:36,850 : Not a candidate function: '_start' at 0x401080, has return vale: <BV32 0x0>
+2024-08-12 01:04:36,850 : [12/45] Analyzing Function 'sub_4010ae', at 0x4010ae
+2024-08-12 01:04:36,850 : Could not get get prototype of function sub_4010ae at 0x4010ae
+2024-08-12 01:04:36,850 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:36,857 : Function sub_4010ae at 0x4010ae: Running angr callable with concrete arguments.
+2024-08-12 01:04:36,879 : Exception: No paths returned from function
+Traceback (most recent call last):
+  File "simID_modified.py", line 473, in analyze_sample
+    ret_val = check_func(*c_input)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 74, in __call__
+    self.perform_call(*args, prototype=prototype)
+  File "/home/analyst/.local/lib/python3.8/site-packages/angr/callable.py", line 107, in perform_call
+    raise AngrCallableError("No paths returned from function")
+angr.errors.AngrCallableError: No paths returned from function
+2024-08-12 01:04:36,880 : [13/45] Analyzing Function 'sub_4010af', at 0x4010af
+2024-08-12 01:04:36,880 : Could not get get prototype of function sub_4010af at 0x4010af
+2024-08-12 01:04:36,880 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:36,890 : Function sub_4010af at 0x4010af: Running angr callable with concrete arguments.
+2024-08-12 01:04:36,941 : <BV32 0x404448>
+2024-08-12 01:04:36,942 : Function sub_4010af at 0x4010af has return value: <BV32 0x404448>
+2024-08-12 01:04:36,942 : Function 'sub_4010af' with 'toyTransform', at 4198575 has return value: 4211784
+2024-08-12 01:04:36,943 : Not a candidate function: 'sub_4010af' at 0x4010af, has return vale: <BV32 0x404448>
+2024-08-12 01:04:36,943 : [14/45] Analyzing Function 'deregister_tm_clones', at 0x4010b0
+2024-08-12 01:04:36,943 : Could not get get prototype of function deregister_tm_clones at 0x4010b0
+2024-08-12 01:04:36,943 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:36,949 : Function deregister_tm_clones at 0x4010b0: Running angr callable with concrete arguments.
+2024-08-12 01:04:36,990 : <BV32 0x404448>
+2024-08-12 01:04:36,990 : Function deregister_tm_clones at 0x4010b0 has return value: <BV32 0x404448>
+2024-08-12 01:04:36,990 : Function 'deregister_tm_clones' with 'toyTransform', at 4198576 has return value: 4211784
+2024-08-12 01:04:36,990 : Not a candidate function: 'deregister_tm_clones' at 0x4010b0, has return vale: <BV32 0x404448>
+2024-08-12 01:04:36,990 : [15/45] Analyzing Function 'sub_4010d9', at 0x4010d9
+2024-08-12 01:04:36,991 : Could not get get prototype of function sub_4010d9 at 0x4010d9
+2024-08-12 01:04:36,991 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:36,999 : Function sub_4010d9 at 0x4010d9: Running angr callable with concrete arguments.
+2024-08-12 01:04:37,060 : <BV32 0x0>
+2024-08-12 01:04:37,074 : Function sub_4010d9 at 0x4010d9 has return value: <BV32 0x0>
+2024-08-12 01:04:37,074 : Function 'sub_4010d9' with 'toyTransform', at 4198617 has return value: 0
+2024-08-12 01:04:37,074 : Not a candidate function: 'sub_4010d9' at 0x4010d9, has return vale: <BV32 0x0>
+2024-08-12 01:04:37,074 : [16/45] Analyzing Function 'register_tm_clones', at 0x4010e0
+2024-08-12 01:04:37,074 : Could not get get prototype of function register_tm_clones at 0x4010e0
+2024-08-12 01:04:37,074 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:37,079 : Function register_tm_clones at 0x4010e0: Running angr callable with concrete arguments.
+2024-08-12 01:04:37,133 : <BV32 0x0>
+2024-08-12 01:04:37,135 : Function register_tm_clones at 0x4010e0 has return value: <BV32 0x0>
+2024-08-12 01:04:37,139 : Function 'register_tm_clones' with 'toyTransform', at 4198624 has return value: 0
+2024-08-12 01:04:37,140 : Not a candidate function: 'register_tm_clones' at 0x4010e0, has return vale: <BV32 0x0>
+2024-08-12 01:04:37,140 : [17/45] Analyzing Function 'sub_401119', at 0x401119
+2024-08-12 01:04:37,141 : Could not get get prototype of function sub_401119 at 0x401119
+2024-08-12 01:04:37,141 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:37,155 : Function sub_401119 at 0x401119: Running angr callable with concrete arguments.
+2024-08-12 01:04:37,235 : <BV32 0x404448>
+2024-08-12 01:04:37,244 : Function sub_401119 at 0x401119 has return value: <BV32 0x404448>
+2024-08-12 01:04:37,244 : Function 'sub_401119' with 'toyTransform', at 4198681 has return value: 4211784
+2024-08-12 01:04:37,244 : Not a candidate function: 'sub_401119' at 0x401119, has return vale: <BV32 0x404448>
+2024-08-12 01:04:37,244 : [18/45] Analyzing Function '__do_global_dtors_aux', at 0x401120
+2024-08-12 01:04:37,244 : Could not get get prototype of function __do_global_dtors_aux at 0x401120
+2024-08-12 01:04:37,244 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:37,253 : Function __do_global_dtors_aux at 0x401120: Running angr callable with concrete arguments.
+2024-08-12 01:04:37,320 : <BV32 0x404448>
+2024-08-12 01:04:37,320 : Function __do_global_dtors_aux at 0x401120 has return value: <BV32 0x404448>
+2024-08-12 01:04:37,320 : Function '__do_global_dtors_aux' with 'toyTransform', at 4198688 has return value: 4211784
+2024-08-12 01:04:37,320 : Not a candidate function: '__do_global_dtors_aux' at 0x401120, has return vale: <BV32 0x404448>
+2024-08-12 01:04:37,321 : [19/45] Analyzing Function 'sub_401155', at 0x401155
+2024-08-12 01:04:37,321 : Could not get get prototype of function sub_401155 at 0x401155
+2024-08-12 01:04:37,321 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:37,339 : Function sub_401155 at 0x401155: Running angr callable with concrete arguments.
+2024-08-12 01:04:37,399 : <BV32 0x0>
+2024-08-12 01:04:37,407 : Function sub_401155 at 0x401155 has return value: <BV32 0x0>
+2024-08-12 01:04:37,412 : Function 'sub_401155' with 'toyTransform', at 4198741 has return value: 0
+2024-08-12 01:04:37,412 : Not a candidate function: 'sub_401155' at 0x401155, has return vale: <BV32 0x0>
+2024-08-12 01:04:37,412 : [20/45] Analyzing Function 'sub_401159', at 0x401159
+2024-08-12 01:04:37,412 : Could not get get prototype of function sub_401159 at 0x401159
+2024-08-12 01:04:37,412 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:37,427 : Function sub_401159 at 0x401159: Running angr callable with concrete arguments.
+2024-08-12 01:04:37,477 : <BV32 0x0>
+2024-08-12 01:04:37,481 : Function sub_401159 at 0x401159 has return value: <BV32 0x0>
+2024-08-12 01:04:37,481 : Function 'sub_401159' with 'toyTransform', at 4198745 has return value: 0
+2024-08-12 01:04:37,481 : Not a candidate function: 'sub_401159' at 0x401159, has return vale: <BV32 0x0>
+2024-08-12 01:04:37,481 : [21/45] Analyzing Function 'frame_dummy', at 0x401160
+2024-08-12 01:04:37,481 : Could not get get prototype of function frame_dummy at 0x401160
+2024-08-12 01:04:37,481 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:37,491 : Function frame_dummy at 0x401160: Running angr callable with concrete arguments.
+2024-08-12 01:04:37,535 : <BV32 0x0>
+2024-08-12 01:04:37,535 : Function frame_dummy at 0x401160 has return value: <BV32 0x0>
+2024-08-12 01:04:37,540 : Function 'frame_dummy' with 'toyTransform', at 4198752 has return value: 0
+2024-08-12 01:04:37,540 : Not a candidate function: 'frame_dummy' at 0x401160, has return vale: <BV32 0x0>
+2024-08-12 01:04:37,540 : [22/45] Analyzing Function 'main', at 0x401169
+2024-08-12 01:04:37,540 : Could not get get prototype of function main at 0x401169
+2024-08-12 01:04:37,541 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:37,552 : Function main at 0x401169: Running angr callable with concrete arguments.
+2024-08-12 01:04:38,742 : <BV32 0x0>
+2024-08-12 01:04:38,742 : Function main at 0x401169 has return value: <BV32 0x0>
+2024-08-12 01:04:38,742 : Function 'main' with 'toyTransform', at 4198761 has return value: 0
+2024-08-12 01:04:38,742 : Not a candidate function: 'main' at 0x401169, has return vale: <BV32 0x0>
+2024-08-12 01:04:38,742 : [23/45] Analyzing Function 'transform', at 0x4011ff
+2024-08-12 01:04:38,743 : Could not get get prototype of function transform at 0x4011ff
+2024-08-12 01:04:38,743 : Could not check the args and return value but moving on because of self.analyze_if_unknown_prototype.
+2024-08-12 01:04:38,750 : Function transform at 0x4011ff: Running angr callable with concrete arguments.
+2024-08-12 01:04:40,098 : <BV32 0x129>
+2024-08-12 01:04:40,098 : Function transform at 0x4011ff has return value: <BV32 0x129>
+2024-08-12 01:04:40,099 : Function 'transform' with 'toyTransform', at 4198911 has return value: 297
+2024-08-12 01:04:40,101 : ********************************************************************************
+2024-08-12 01:04:40,101 : End: 2024-08-12 01:04:40.101171

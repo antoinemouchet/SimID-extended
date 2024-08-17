@@ -1,0 +1,111 @@
+2024-07-14 17:56:14,712 : Starting analysis of './samples/gonnacry_gcc_O0'
+2024-07-14 17:56:15,153 : Sample ./samples/gonnacry_gcc_O0 has 193 functions.
+2024-07-14 17:59:54,857 : CANDIDATE FUNCTIONALITY FOUND 'getTrashPath' for function 'get_trash_path', at 0x402238!
+2024-07-14 17:59:57,115 : CANDIDATE FUNCTIONALITY FOUND 'getMediaPath' for function 'get_media_path', at 0x4022e8!
+2024-07-14 18:00:02,870 : CANDIDATE FUNCTIONALITY FOUND 'getTestPath' for function 'get_test_path', at 0x40249f!
+2024-07-14 18:01:19,905 : Fully analyzed sample './samples/gonnacry_gcc_O0' and got {4203064: ['get_trash_path', 'getTrashPath', ''], 4203240: ['get_media_path', 'getMediaPath', ''], 4203679: ['get_test_path', 'getTestPath', '']}
+2024-07-14 18:01:19,908 : Analysis of './samples/gonnacry_gcc_O0' took 305.195767 seconds.
+Found 3 functionalities
+2024-07-14 18:01:19,908 : Starting analysis of './samples/gonnacry_gcc_O1'
+2024-07-14 18:01:20,344 : Sample ./samples/gonnacry_gcc_O1 has 195 functions.
+2024-07-14 18:04:55,103 : CANDIDATE FUNCTIONALITY FOUND 'getTrashPath' for function 'get_trash_path', at 0x401f9a!
+2024-07-14 18:04:57,260 : CANDIDATE FUNCTIONALITY FOUND 'getMediaPath' for function 'get_media_path', at 0x402038!
+2024-07-14 18:04:59,691 : CANDIDATE FUNCTIONALITY FOUND 'getTestPath' for function 'get_test_path', at 0x4020a5!
+2024-07-14 18:06:24,201 : Fully analyzed sample './samples/gonnacry_gcc_O1' and got {4202394: ['get_trash_path', 'getTrashPath', ''], 4202552: ['get_media_path', 'getMediaPath', ''], 4202661: ['get_test_path', 'getTestPath', '']}
+2024-07-14 18:06:24,201 : Analysis of './samples/gonnacry_gcc_O1' took 304.293045 seconds.
+Found 3 functionalities
+2024-07-14 18:06:24,201 : Starting analysis of './samples/gonnacry_gcc_O2'
+2024-07-14 18:06:24,620 : Sample ./samples/gonnacry_gcc_O2 has 247 functions.
+2024-07-14 18:10:27,358 : CANDIDATE FUNCTIONALITY FOUND 'getTrashPath' for function 'sub_40202c', at 0x40202c!
+2024-07-14 18:10:29,031 : CANDIDATE FUNCTIONALITY FOUND 'getTrashPath' for function 'get_trash_path', at 0x402030!
+2024-07-14 18:10:30,785 : CANDIDATE FUNCTIONALITY FOUND 'getMediaPath' for function 'get_media_path', at 0x4020c0!
+2024-07-14 18:10:36,531 : CANDIDATE FUNCTIONALITY FOUND 'getTestPath' for function 'get_test_path', at 0x4021d0!
+2024-07-14 18:12:28,376 : Fully analyzed sample './samples/gonnacry_gcc_O2' and got {4202540: ['sub_40202c', 'getTrashPath', ''], 4202544: ['get_trash_path', 'getTrashPath', ''], 4202688: ['get_media_path', 'getMediaPath', ''], 4202960: ['get_test_path', 'getTestPath', '']}
+2024-07-14 18:12:28,377 : Analysis of './samples/gonnacry_gcc_O2' took 364.175146 seconds.
+Found 4 functionalities
+2024-07-14 18:12:28,377 : Starting analysis of './samples/gonnacry_gcc_O3'
+2024-07-14 18:12:28,814 : Sample ./samples/gonnacry_gcc_O3 has 247 functions.
+2024-07-14 18:16:30,326 : CANDIDATE FUNCTIONALITY FOUND 'getTrashPath' for function 'sub_40202c', at 0x40202c!
+2024-07-14 18:16:32,077 : CANDIDATE FUNCTIONALITY FOUND 'getTrashPath' for function 'get_trash_path', at 0x402030!
+2024-07-14 18:16:33,907 : CANDIDATE FUNCTIONALITY FOUND 'getMediaPath' for function 'get_media_path', at 0x4020c0!
+2024-07-14 18:16:39,858 : CANDIDATE FUNCTIONALITY FOUND 'getTestPath' for function 'get_test_path', at 0x4021d0!
+2024-07-14 18:18:27,215 : Fully analyzed sample './samples/gonnacry_gcc_O3' and got {4202540: ['sub_40202c', 'getTrashPath', ''], 4202544: ['get_trash_path', 'getTrashPath', ''], 4202688: ['get_media_path', 'getMediaPath', ''], 4202960: ['get_test_path', 'getTestPath', '']}
+2024-07-14 18:18:27,216 : Analysis of './samples/gonnacry_gcc_O3' took 358.839264 seconds.
+Found 4 functionalities
+2024-07-14 18:18:27,216 : Starting analysis of './samples/gonnacry_ollvm_bcf'
+2024-07-14 18:18:27,667 : Sample ./samples/gonnacry_ollvm_bcf has 142 functions.
+2024-07-14 18:19:50,911 : CANDIDATE FUNCTIONALITY FOUND 'getTrashPath' for function 'sub_402f9a', at 0x402f9a!
+2024-07-14 18:19:52,684 : CANDIDATE FUNCTIONALITY FOUND 'getTrashPath' for function 'get_trash_path', at 0x402fa0!
+2024-07-14 18:19:54,573 : CANDIDATE FUNCTIONALITY FOUND 'getMediaPath' for function 'sub_40302e', at 0x40302e!
+2024-07-14 18:19:56,517 : CANDIDATE FUNCTIONALITY FOUND 'getMediaPath' for function 'get_media_path', at 0x403030!
+2024-07-14 18:20:07,558 : CANDIDATE FUNCTIONALITY FOUND 'getTestPath' for function 'sub_40363b', at 0x40363b!
+2024-07-14 18:20:09,531 : CANDIDATE FUNCTIONALITY FOUND 'getTestPath' for function 'get_test_path', at 0x403640!
+2024-07-14 18:21:38,984 : Fully analyzed sample './samples/gonnacry_ollvm_bcf' and got {4206490: ['sub_402f9a', 'getTrashPath', ''], 4206496: ['get_trash_path', 'getTrashPath', ''], 4206638: ['sub_40302e', 'getMediaPath', ''], 4206640: ['get_media_path', 'getMediaPath', ''], 4208187: ['sub_40363b', 'getTestPath', ''], 4208192: ['get_test_path', 'getTestPath', '']}
+2024-07-14 18:21:38,984 : Analysis of './samples/gonnacry_ollvm_bcf' took 191.768247 seconds.
+Found 6 functionalities
+2024-07-14 18:21:38,984 : Starting analysis of './samples/gonnacry_ollvm_fla'
+2024-07-14 18:21:39,423 : Sample ./samples/gonnacry_ollvm_fla has 144 functions.
+2024-07-14 18:23:15,091 : CANDIDATE FUNCTIONALITY FOUND 'getTrashPath' for function 'sub_4029e2', at 0x4029e2!
+2024-07-14 18:23:16,898 : CANDIDATE FUNCTIONALITY FOUND 'getTrashPath' for function 'get_trash_path', at 0x4029f0!
+2024-07-14 18:23:18,719 : CANDIDATE FUNCTIONALITY FOUND 'getMediaPath' for function 'sub_402a7e', at 0x402a7e!
+2024-07-14 18:23:20,553 : CANDIDATE FUNCTIONALITY FOUND 'getMediaPath' for function 'get_media_path', at 0x402a80!
+2024-07-14 18:23:32,207 : CANDIDATE FUNCTIONALITY FOUND 'getTestPath' for function 'sub_402da7', at 0x402da7!
+2024-07-14 18:23:34,067 : CANDIDATE FUNCTIONALITY FOUND 'getTestPath' for function 'get_test_path', at 0x402db0!
+2024-07-14 18:25:22,764 : Fully analyzed sample './samples/gonnacry_ollvm_fla' and got {4205026: ['sub_4029e2', 'getTrashPath', ''], 4205040: ['get_trash_path', 'getTrashPath', ''], 4205182: ['sub_402a7e', 'getMediaPath', ''], 4205184: ['get_media_path', 'getMediaPath', ''], 4205991: ['sub_402da7', 'getTestPath', ''], 4206000: ['get_test_path', 'getTestPath', '']}
+2024-07-14 18:25:22,765 : Analysis of './samples/gonnacry_ollvm_fla' took 223.779103 seconds.
+Found 6 functionalities
+2024-07-14 18:25:22,765 : Starting analysis of './samples/gonnacry_ollvm_fla_bcf'
+2024-07-14 18:25:23,293 : Sample ./samples/gonnacry_ollvm_fla_bcf has 143 functions.
+2024-07-14 18:27:36,029 : CANDIDATE FUNCTIONALITY FOUND 'getTrashPath' for function 'sub_403b47', at 0x403b47!
+2024-07-14 18:27:37,856 : CANDIDATE FUNCTIONALITY FOUND 'getTrashPath' for function 'get_trash_path', at 0x403b50!
+2024-07-14 18:27:39,691 : CANDIDATE FUNCTIONALITY FOUND 'getMediaPath' for function 'sub_403e0b', at 0x403e0b!
+2024-07-14 18:27:41,572 : CANDIDATE FUNCTIONALITY FOUND 'getMediaPath' for function 'get_media_path', at 0x403e10!
+2024-07-14 18:27:59,456 : CANDIDATE FUNCTIONALITY FOUND 'getTestPath' for function 'sub_40454d', at 0x40454d!
+2024-07-14 18:28:01,389 : CANDIDATE FUNCTIONALITY FOUND 'getTestPath' for function 'get_test_path', at 0x404550!
+2024-07-14 18:30:42,402 : Fully analyzed sample './samples/gonnacry_ollvm_fla_bcf' and got {4209479: ['sub_403b47', 'getTrashPath', ''], 4209488: ['get_trash_path', 'getTrashPath', ''], 4210187: ['sub_403e0b', 'getMediaPath', ''], 4210192: ['get_media_path', 'getMediaPath', ''], 4212045: ['sub_40454d', 'getTestPath', ''], 4212048: ['get_test_path', 'getTestPath', '']}
+2024-07-14 18:30:42,402 : Analysis of './samples/gonnacry_ollvm_fla_bcf' took 319.637265 seconds.
+Found 6 functionalities
+2024-07-14 18:30:42,403 : Starting analysis of './samples/gonnacry_ollvm_sub'
+2024-07-14 18:30:43,047 : Sample ./samples/gonnacry_ollvm_sub has 141 functions.
+2024-07-14 18:33:33,222 : CANDIDATE FUNCTIONALITY FOUND 'getTrashPath' for function 'sub_402143', at 0x402143!
+2024-07-14 18:33:37,214 : CANDIDATE FUNCTIONALITY FOUND 'getTrashPath' for function 'get_trash_path', at 0x402150!
+2024-07-14 18:33:41,158 : CANDIDATE FUNCTIONALITY FOUND 'getMediaPath' for function 'sub_4021f6', at 0x4021f6!
+2024-07-14 18:33:45,313 : CANDIDATE FUNCTIONALITY FOUND 'getMediaPath' for function 'get_media_path', at 0x402200!
+2024-07-14 18:34:07,779 : CANDIDATE FUNCTIONALITY FOUND 'getTestPath' for function 'sub_40240b', at 0x40240b!
+2024-07-14 18:34:11,780 : CANDIDATE FUNCTIONALITY FOUND 'getTestPath' for function 'get_test_path', at 0x402410!
+2024-07-14 18:37:10,101 : Fully analyzed sample './samples/gonnacry_ollvm_sub' and got {4202819: ['sub_402143', 'getTrashPath', ''], 4202832: ['get_trash_path', 'getTrashPath', ''], 4202998: ['sub_4021f6', 'getMediaPath', ''], 4203008: ['get_media_path', 'getMediaPath', ''], 4203531: ['sub_40240b', 'getTestPath', ''], 4203536: ['get_test_path', 'getTestPath', '']}
+2024-07-14 18:37:10,102 : Analysis of './samples/gonnacry_ollvm_sub' took 387.698393 seconds.
+Found 6 functionalities
+2024-07-14 18:37:10,102 : Starting analysis of './samples/gonnacry_ollvm_sub_bcf'
+2024-07-14 18:37:11,788 : Sample ./samples/gonnacry_ollvm_sub_bcf has 143 functions.
+2024-07-14 18:40:25,672 : CANDIDATE FUNCTIONALITY FOUND 'getTrashPath' for function 'sub_403a97', at 0x403a97!
+2024-07-14 18:40:29,533 : CANDIDATE FUNCTIONALITY FOUND 'getTrashPath' for function 'get_trash_path', at 0x403aa0!
+2024-07-14 18:40:32,603 : CANDIDATE FUNCTIONALITY FOUND 'getMediaPath' for function 'sub_403b3d', at 0x403b3d!
+2024-07-14 18:40:36,124 : CANDIDATE FUNCTIONALITY FOUND 'getMediaPath' for function 'get_media_path', at 0x403b40!
+2024-07-14 18:40:56,648 : CANDIDATE FUNCTIONALITY FOUND 'getTestPath' for function 'sub_403feb', at 0x403feb!
+2024-07-14 18:41:00,851 : CANDIDATE FUNCTIONALITY FOUND 'getTestPath' for function 'get_test_path', at 0x403ff0!
+2024-07-14 18:44:12,199 : Fully analyzed sample './samples/gonnacry_ollvm_sub_bcf' and got {4209303: ['sub_403a97', 'getTrashPath', ''], 4209312: ['get_trash_path', 'getTrashPath', ''], 4209469: ['sub_403b3d', 'getMediaPath', ''], 4209472: ['get_media_path', 'getMediaPath', ''], 4210667: ['sub_403feb', 'getTestPath', ''], 4210672: ['get_test_path', 'getTestPath', '']}
+2024-07-14 18:44:12,199 : Analysis of './samples/gonnacry_ollvm_sub_bcf' took 422.09654 seconds.
+Found 6 functionalities
+2024-07-14 18:44:12,199 : Starting analysis of './samples/gonnacry_ollvm_sub_fla'
+2024-07-14 18:44:13,277 : Sample ./samples/gonnacry_ollvm_sub_fla has 144 functions.
+2024-07-14 18:48:13,084 : CANDIDATE FUNCTIONALITY FOUND 'getTrashPath' for function 'sub_402b52', at 0x402b52!
+2024-07-14 18:48:17,145 : CANDIDATE FUNCTIONALITY FOUND 'getTrashPath' for function 'get_trash_path', at 0x402b60!
+2024-07-14 18:48:20,916 : CANDIDATE FUNCTIONALITY FOUND 'getMediaPath' for function 'sub_402c06', at 0x402c06!
+2024-07-14 18:48:24,851 : CANDIDATE FUNCTIONALITY FOUND 'getMediaPath' for function 'get_media_path', at 0x402c10!
+2024-07-14 18:48:50,577 : CANDIDATE FUNCTIONALITY FOUND 'getTestPath' for function 'sub_402f87', at 0x402f87!
+2024-07-14 18:48:54,820 : CANDIDATE FUNCTIONALITY FOUND 'getTestPath' for function 'get_test_path', at 0x402f90!
+2024-07-14 18:53:10,803 : Fully analyzed sample './samples/gonnacry_ollvm_sub_fla' and got {4205394: ['sub_402b52', 'getTrashPath', ''], 4205408: ['get_trash_path', 'getTrashPath', ''], 4205574: ['sub_402c06', 'getMediaPath', ''], 4205584: ['get_media_path', 'getMediaPath', ''], 4206471: ['sub_402f87', 'getTestPath', ''], 4206480: ['get_test_path', 'getTestPath', '']}
+2024-07-14 18:53:10,803 : Analysis of './samples/gonnacry_ollvm_sub_fla' took 538.603761 seconds.
+Found 6 functionalities
+2024-07-14 18:53:10,803 : Starting analysis of './samples/gonnacry_ollvm_sub_fla_bcf'
+2024-07-14 18:53:12,796 : Sample ./samples/gonnacry_ollvm_sub_fla_bcf has 141 functions.
+2024-07-14 18:58:36,417 : CANDIDATE FUNCTIONALITY FOUND 'getTrashPath' for function 'sub_404d26', at 0x404d26!
+2024-07-14 18:58:40,099 : CANDIDATE FUNCTIONALITY FOUND 'getTrashPath' for function 'get_trash_path', at 0x404d30!
+2024-07-14 18:58:44,724 : CANDIDATE FUNCTIONALITY FOUND 'getMediaPath' for function 'sub_404dd6', at 0x404dd6!
+2024-07-14 18:58:49,260 : CANDIDATE FUNCTIONALITY FOUND 'getMediaPath' for function 'get_media_path', at 0x404de0!
+2024-07-14 18:59:28,112 : CANDIDATE FUNCTIONALITY FOUND 'getTestPath' for function 'sub_4058d3', at 0x4058d3!
+2024-07-14 18:59:32,829 : CANDIDATE FUNCTIONALITY FOUND 'getTestPath' for function 'get_test_path', at 0x4058e0!
+2024-07-14 19:06:32,435 : Fully analyzed sample './samples/gonnacry_ollvm_sub_fla_bcf' and got {4214054: ['sub_404d26', 'getTrashPath', ''], 4214064: ['get_trash_path', 'getTrashPath', ''], 4214230: ['sub_404dd6', 'getMediaPath', ''], 4214240: ['get_media_path', 'getMediaPath', ''], 4217043: ['sub_4058d3', 'getTestPath', ''], 4217056: ['get_test_path', 'getTestPath', '']}
+2024-07-14 19:06:32,436 : Analysis of './samples/gonnacry_ollvm_sub_fla_bcf' took 801.632361 seconds.
+Found 6 functionalities
